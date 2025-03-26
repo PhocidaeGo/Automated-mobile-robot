@@ -1,0 +1,2 @@
+/usr/bin/ar qc libviewpoint_manager.a CMakeFiles/viewpoint_manager.dir/src/viewpoint_manager/viewpoint_manager.cpp.o
+/usr/bin/ranlib libviewpoint_manager.a

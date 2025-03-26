@@ -1,0 +1,66 @@
+[0.021s] Invoking command in '/home/yuanyan/Robot/build/visualization_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/visualization_tools -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/visualization_tools
+[0.031s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.234s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.241s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.271s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.281s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.293s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.308s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.383s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.384s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.450s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.531s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.531s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.548s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.601s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.633s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.777s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.781s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.782s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.785s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[0.842s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.842s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.842s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.842s]   cmake_policy command to set the policy and suppress this warning.
+[0.842s] 
+[0.842s]   CMake variable FLANN_ROOT is set to:
+[0.842s] 
+[0.842s]     /usr
+[0.842s] 
+[0.842s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.842s]   .cmake module might still use it.
+[0.842s] Call Stack (most recent call first):
+[0.842s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.842s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.843s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.843s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.843s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.843s]   CMakeLists.txt:30 (find_package)
+[0.843s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.843s] [0m
+[0.843s] -- Found flann version 1.9.2
+[1.161s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.166s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.168s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[1.504s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.510s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.790s] -- Found Qhull version 8.0.2
+[2.114s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.445s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[2.529s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.596s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.597s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.597s] -- Configured cppcheck include dirs: 
+[2.597s] -- Configured cppcheck exclude dirs and/or files: 
+[2.597s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.597s] -- Configured cpplint exclude dirs and/or files: 
+[2.598s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.598s] -- Configured 'flake8' exclude dirs and/or files: 
+[2.598s] -- Added test 'lint_cmake' to check CMake code style
+[2.598s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.598s] -- Added test 'uncrustify' to check C / C++ code style
+[2.598s] -- Configured uncrustify additional arguments: 
+[2.599s] -- Added test 'xmllint' to check XML markup files
+[2.599s] -- Configuring done (2.6s)
+[2.631s] -- Generating done (0.0s)
+[2.635s] -- Build files have been written to: /home/yuanyan/Robot/build/visualization_tools

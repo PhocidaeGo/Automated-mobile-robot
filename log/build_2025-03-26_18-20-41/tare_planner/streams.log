@@ -1,0 +1,60 @@
+[0.024s] Invoking command in '/home/yuanyan/Robot/build/tare_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/tare_planner -- -j16 -l16
+[0.104s] [ 10%] Built target misc_utils
+[0.104s] [ 10%] Built target graph
+[0.105s] [ 15%] Built target pointcloud_utils
+[0.108s] [ 21%] Built target lidar_model
+[0.109s] [ 26%] Built target tsp_solver
+[0.110s] [ 36%] Built target rolling_occupancy_grid
+[0.110s] [ 36%] Built target navigationBoundary
+[0.115s] [ 42%] Built target pointcloud_manager
+[0.117s] [ 47%] Built target tare_visualizer
+[0.117s] [ 52%] Built target exploration_path
+[0.149s] [ 57%] Built target rolling_grid
+[0.154s] [ 63%] Built target planning_env
+[0.161s] [ 68%] Built target viewpoint
+[0.182s] [ 73%] Built target keypose_graph
+[0.219s] [ 78%] Built target grid_world
+[0.250s] [ 84%] Built target viewpoint_manager
+[0.281s] [ 89%] Built target local_coverage_planner
+[0.313s] [ 94%] Built target sensor_coverage_planner_ground
+[0.345s] [100%] Built target tare_planner_node
+[0.355s] Invoked command in '/home/yuanyan/Robot/build/tare_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/tare_planner -- -j16 -l16
+[0.356s] Invoking command in '/home/yuanyan/Robot/build/tare_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/tare_planner
+[0.361s] -- Install configuration: ""
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/lib/tare_planner/navigationBoundary
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/lib/tare_planner/tare_planner_node
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_garage.launch
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore.launch
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_indoor.launch
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_tunnel.launch
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_campus.launch
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_forest.launch
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_matterport.launch
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//tare_planner_ground.rviz
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/tunnel.yaml
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/indoor.yaml
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/campus.yaml
+[0.361s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/forest.yaml
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/garage.yaml
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/matterport.yaml
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/boundary.ply
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/ament_index/resource_index/package_run_dependencies/tare_planner
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/ament_index/resource_index/parent_prefix_path/tare_planner
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/ament_prefix_path.sh
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/ament_prefix_path.dsv
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/path.sh
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/path.dsv
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.bash
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.sh
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.zsh
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.dsv
+[0.362s] -- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/package.dsv
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/ament_index/resource_index/packages/tare_planner
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/cmake/tare_plannerConfig.cmake
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/cmake/tare_plannerConfig-version.cmake
+[0.362s] -- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/package.xml
+[0.363s] Invoked command in '/home/yuanyan/Robot/build/tare_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/tare_planner

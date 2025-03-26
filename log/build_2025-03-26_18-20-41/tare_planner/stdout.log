@@ -1,0 +1,56 @@
+[ 10%] Built target misc_utils
+[ 10%] Built target graph
+[ 15%] Built target pointcloud_utils
+[ 21%] Built target lidar_model
+[ 26%] Built target tsp_solver
+[ 36%] Built target rolling_occupancy_grid
+[ 36%] Built target navigationBoundary
+[ 42%] Built target pointcloud_manager
+[ 47%] Built target tare_visualizer
+[ 52%] Built target exploration_path
+[ 57%] Built target rolling_grid
+[ 63%] Built target planning_env
+[ 68%] Built target viewpoint
+[ 73%] Built target keypose_graph
+[ 78%] Built target grid_world
+[ 84%] Built target viewpoint_manager
+[ 89%] Built target local_coverage_planner
+[ 94%] Built target sensor_coverage_planner_ground
+[100%] Built target tare_planner_node
+-- Install configuration: ""
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/lib/tare_planner/navigationBoundary
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/lib/tare_planner/tare_planner_node
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_garage.launch
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore.launch
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_indoor.launch
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_tunnel.launch
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_campus.launch
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_forest.launch
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_matterport.launch
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//tare_planner_ground.rviz
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/tunnel.yaml
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/indoor.yaml
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/campus.yaml
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/forest.yaml
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/garage.yaml
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/matterport.yaml
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/boundary.ply
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/ament_index/resource_index/package_run_dependencies/tare_planner
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/ament_index/resource_index/parent_prefix_path/tare_planner
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/ament_prefix_path.sh
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/path.sh
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/path.dsv
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.bash
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.sh
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.zsh
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.dsv
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/package.dsv
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/ament_index/resource_index/packages/tare_planner
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/cmake/tare_plannerConfig.cmake
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/cmake/tare_plannerConfig-version.cmake
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/package.xml

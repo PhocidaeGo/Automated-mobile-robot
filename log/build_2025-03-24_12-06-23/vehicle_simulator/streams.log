@@ -1,0 +1,237 @@
+[0.013s] Invoking command in '/home/yuanyan/Robot/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/vehicle_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/vehicle_simulator
+[0.057s] -- The C compiler identification is GNU 13.3.0
+[0.096s] -- The CXX compiler identification is GNU 13.3.0
+[0.107s] -- Detecting C compiler ABI info
+[0.167s] -- Detecting C compiler ABI info - done
+[0.173s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.174s] -- Detecting C compile features
+[0.174s] -- Detecting C compile features - done
+[0.180s] -- Detecting CXX compiler ABI info
+[0.255s] -- Detecting CXX compiler ABI info - done
+[0.261s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.262s] -- Detecting CXX compile features
+[0.262s] -- Detecting CXX compile features - done
+[0.266s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.374s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.431s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.458s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.490s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.501s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.513s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.526s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.581s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.584s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.636s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.650s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.667s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.721s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.732s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.762s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.780s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.876s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.887s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.888s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.888s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.890s] -- Looking for gz-msgs10 -- found version 10.3.2
+[0.895s] -- Searching for dependencies of gz-msgs10
+[0.970s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.21.12") 
+[0.971s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.971s] -- Searching for dependencies of gz-utils2
+[0.973s] -- Looking for gz-math7 -- found version 7.5.2
+[0.973s] -- Searching for dependencies of gz-math7
+[0.973s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.977s] -- Checking for module 'tinyxml2'
+[0.986s] --   Found tinyxml2, version 10.0.0
+[1.008s] -- Looking for gz-transport13 -- found version 13.4.1
+[1.008s] -- Searching for dependencies of gz-transport13
+[1.027s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[1.031s] -- Checking for module 'libzmq >= 4'
+[1.040s] --   Found libzmq, version 4.3.5
+[1.068s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[1.072s] -- Checking for module 'uuid'
+[1.082s] --   Found uuid, version 2.39.3
+[1.104s] -- Found UUID: TRUE  
+[1.105s] -- Looking for gz-utils2 -- found version 2.2.1
+[1.105s] -- Searching for dependencies of gz-utils2
+[1.105s] -- Searching for <gz-utils2> component [cli]
+[1.106s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[1.106s] -- Searching for dependencies of gz-utils2-cli
+[1.107s] -- Looking for gz-msgs10 -- found version 10.3.2
+[1.114s] -- Found OpenCV: /usr (found version "4.6.0") 
+[1.142s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[1.143s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.143s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.143s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.143s]   cmake_policy command to set the policy and suppress this warning.
+[1.144s] 
+[1.144s]   CMake variable FLANN_ROOT is set to:
+[1.144s] 
+[1.144s]     /usr
+[1.144s] 
+[1.144s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.144s]   .cmake module might still use it.
+[1.144s] Call Stack (most recent call first):
+[1.144s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.144s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.144s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.144s]   CMakeLists.txt:40 (find_package)
+[1.144s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.144s] [0m
+[1.145s] -- Found flann version 1.9.2
+[1.350s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.351s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[1.393s] -- Found Threads: TRUE  
+[1.395s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.403s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.523s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.523s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.526s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.539s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[1.556s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[1.565s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.674s] -- Found X11: /usr/include   
+[1.674s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.746s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.746s] -- Looking for gethostbyname
+[1.810s] -- Looking for gethostbyname - found
+[1.810s] -- Looking for connect
+[1.881s] -- Looking for connect - found
+[1.881s] -- Looking for remove
+[1.943s] -- Looking for remove - found
+[1.943s] -- Looking for shmat
+[2.012s] -- Looking for shmat - found
+[2.012s] -- Looking for IceConnectionNumber in ICE
+[2.093s] -- Looking for IceConnectionNumber in ICE - found
+[2.197s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[2.199s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.202s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[2.204s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[2.219s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.232s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+[2.235s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+[2.239s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.314s] -- Checking for module 'libusb-1.0'
+[2.330s] --   Found libusb-1.0, version 1.0.27
+[2.366s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.367s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.367s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.413s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.413s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.416s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.416s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.774s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.779s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.128s] -- Found Qhull version 8.0.2
+[3.580s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.019s] -- looking for PCL_COMMON
+[4.020s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.020s] -- looking for PCL_KDTREE
+[4.022s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.022s] -- looking for PCL_OCTREE
+[4.023s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.023s] -- looking for PCL_SEARCH
+[4.025s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.025s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.026s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.026s] -- looking for PCL_FILTERS
+[4.028s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.028s] -- looking for PCL_2D
+[4.028s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[4.029s] -- looking for PCL_GEOMETRY
+[4.029s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[4.029s] -- looking for PCL_IO
+[4.030s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.031s] -- looking for PCL_FEATURES
+[4.032s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.032s] -- looking for PCL_ML
+[4.033s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.034s] -- looking for PCL_SEGMENTATION
+[4.035s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.035s] -- looking for PCL_VISUALIZATION
+[4.037s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.037s] -- looking for PCL_SURFACE
+[4.038s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.039s] -- looking for PCL_REGISTRATION
+[4.040s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.040s] -- looking for PCL_KEYPOINTS
+[4.042s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.042s] -- looking for PCL_TRACKING
+[4.043s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.044s] -- looking for PCL_RECOGNITION
+[4.045s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.045s] -- looking for PCL_STEREO
+[4.047s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.047s] -- looking for PCL_APPS
+[4.048s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.049s] -- looking for PCL_IN_HAND_SCANNER
+[4.049s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[4.049s] -- looking for PCL_MODELER
+[4.050s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[4.050s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.050s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[4.050s] -- looking for PCL_OUTOFCORE
+[4.052s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.052s] -- looking for PCL_PEOPLE
+[4.053s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.054s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[4.058s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[4.108s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[4.158s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.301s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.304s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.304s] -- Configured cppcheck include dirs: /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/vehicle_simulator/include
+[4.304s] -- Configured cppcheck exclude dirs and/or files: 
+[4.306s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.306s] -- Configured cpplint exclude dirs and/or files: 
+[4.308s] -- Added test 'lint_cmake' to check CMake code style
+[4.310s] -- Added test 'uncrustify' to check C / C++ code style
+[4.310s] -- Configured uncrustify additional arguments: 
+[4.311s] -- Added test 'xmllint' to check XML markup files
+[4.313s] -- Configuring done (4.3s)
+[4.384s] -- Generating done (0.0s)
+[4.393s] -- Build files have been written to: /home/yuanyan/Robot/build/vehicle_simulator
+[4.420s] Invoked command in '/home/yuanyan/Robot/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/vehicle_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/vehicle_simulator
+[4.422s] Invoking command in '/home/yuanyan/Robot/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/vehicle_simulator -- -j16 -l16
+[4.480s] [ 50%] [32mBuilding CXX object CMakeFiles/vehicleSimulator.dir/src/vehicleSimulator.cpp.o[0m
+[23.578s] [100%] [32m[1mLinking CXX executable vehicleSimulator[0m
+[24.765s] [100%] Built target vehicleSimulator
+[24.775s] Invoked command in '/home/yuanyan/Robot/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/vehicle_simulator -- -j16 -l16
+[24.776s] Invoking command in '/home/yuanyan/Robot/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/vehicle_simulator
+[24.783s] -- Install configuration: ""
+[24.783s] -- Execute custom install script
+[24.784s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/lib/vehicle_simulator/vehicleSimulator
+[24.791s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/launch/system_campus.launch
+[24.799s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/launch/system_forest.launch
+[24.806s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/launch/system_garage.launch
+[24.814s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/launch/system_indoor.launch
+[24.822s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/launch/system_real_robot.launch
+[24.827s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/launch/system_tunnel.launch
+[24.834s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/launch/vehicle_simulator.launch
+[24.840s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/log/readme.txt
+[24.847s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/mesh/download_environments.sh
+[24.852s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/rviz/vehicle_simulator.rviz
+[24.857s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/urdf/camera.sdf
+[24.863s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/urdf/lidar.sdf
+[24.868s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/urdf/robot.sdf
+[24.873s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/world/campus.world
+[24.879s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/world/forest.world
+[24.884s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/world/garage.world
+[24.889s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/world/indoor.world
+[24.894s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/world/tunnel.world
+[24.899s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/params/gz_ros_bridge.yaml
+[24.904s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/ament_index/resource_index/package_run_dependencies/vehicle_simulator
+[24.910s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/ament_index/resource_index/parent_prefix_path/vehicle_simulator
+[24.917s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.sh
+[24.922s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/environment/ament_prefix_path.dsv
+[24.927s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/environment/path.sh
+[24.932s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/environment/path.dsv
+[24.939s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/local_setup.bash
+[24.944s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/local_setup.sh
+[24.949s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/local_setup.zsh
+[24.956s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/local_setup.dsv
+[24.963s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.dsv
+[24.969s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/ament_index/resource_index/packages/vehicle_simulator
+[24.975s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig.cmake
+[24.980s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/cmake/vehicle_simulatorConfig-version.cmake
+[24.987s] -- Symlinking: /home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.xml
+[24.993s] Invoked command in '/home/yuanyan/Robot/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/vehicle_simulator

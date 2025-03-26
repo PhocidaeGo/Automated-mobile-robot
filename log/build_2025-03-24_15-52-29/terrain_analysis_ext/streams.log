@@ -1,0 +1,62 @@
+[0.020s] Invoking command in '/home/yuanyan/Robot/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/terrain_analysis_ext
+[0.031s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.225s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.230s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.250s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.256s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.276s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.323s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.323s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.368s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.421s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.430s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.463s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.479s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.562s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.564s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.565s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.567s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[0.600s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.600s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.600s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.600s]   cmake_policy command to set the policy and suppress this warning.
+[0.600s] 
+[0.600s]   CMake variable FLANN_ROOT is set to:
+[0.600s] 
+[0.600s]     /usr
+[0.600s] 
+[0.600s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.600s]   .cmake module might still use it.
+[0.600s] Call Stack (most recent call first):
+[0.600s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.600s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.600s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.600s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.601s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.601s]   CMakeLists.txt:28 (find_package)
+[0.601s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.601s] [0m
+[0.601s] -- Found flann version 1.9.2
+[0.897s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.902s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.904s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[1.243s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.248s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.543s] -- Found Qhull version 8.0.2
+[1.840s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.127s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[2.148s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.216s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.216s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.216s] -- Configured cppcheck include dirs: 
+[2.216s] -- Configured cppcheck exclude dirs and/or files: 
+[2.217s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.217s] -- Configured cpplint exclude dirs and/or files: 
+[2.217s] -- Added test 'lint_cmake' to check CMake code style
+[2.217s] -- Added test 'uncrustify' to check C / C++ code style
+[2.217s] -- Configured uncrustify additional arguments: 
+[2.218s] -- Added test 'xmllint' to check XML markup files
+[2.218s] -- Configuring done (2.2s)
+[2.251s] -- Generating done (0.0s)
+[2.256s] -- Build files have been written to: /home/yuanyan/Robot/build/terrain_analysis_ext

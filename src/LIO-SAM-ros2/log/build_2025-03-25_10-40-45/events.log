@@ -1,0 +1,691 @@
+[0.000000] (-) TimerEvent: {}
+[0.000364] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000545] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.004986] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.005215] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '/home/yuanyan/LIO-SAM-ros2', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/yuanyan/LIO-SAM-ros2/install/lio_sam'], 'cwd': '/home/yuanyan/LIO-SAM-ros2/build/lio_sam', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yuanyan', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yuanyan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3401', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e6b8292455f341fc3c47957a67e05a1f', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yuanyan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yuanyan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yuanyan:@/tmp/.ICE-unix/3401,unix/yuanyan:/tmp/.ICE-unix/3401', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c3346c23_8602_49be_bb70_d31f5ff8efe8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.262', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yuanyan/LIO-SAM-ros2/build/lio_sam', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e6b8292455f341fc3c47957a67e05a1f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.042803] (lio_sam) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.080203] (lio_sam) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.092914] (lio_sam) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.099979] (-) TimerEvent: {}
+[0.154048] (lio_sam) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.159924] (lio_sam) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.160063] (lio_sam) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.160324] (lio_sam) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.167583] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.200088] (-) TimerEvent: {}
+[0.233694] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.239762] (lio_sam) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.239956] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.240295] (lio_sam) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.242442] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.300185] (-) TimerEvent: {}
+[0.343264] (lio_sam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.386789] (lio_sam) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.400262] (-) TimerEvent: {}
+[0.412130] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[0.416208] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.451472] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.479944] (lio_sam) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[0.482289] (lio_sam) StdoutLine: {'line': b'-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.500346] (-) TimerEvent: {}
+[0.535236] (lio_sam) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.537597] (lio_sam) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.599165] (lio_sam) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[0.600437] (-) TimerEvent: {}
+[0.613728] (lio_sam) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") \n'}
+[0.631057] (lio_sam) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.680769] (lio_sam) StdoutLine: {'line': b'-- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)\n'}
+[0.682222] (lio_sam) StdoutLine: {'line': b'-- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)\n'}
+[0.700517] (-) TimerEvent: {}
+[0.729867] (lio_sam) StdoutLine: {'line': b'-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)\n'}
+[0.747010] (lio_sam) StdoutLine: {'line': b'-- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)\n'}
+[0.765668] (lio_sam) StdoutLine: {'line': b'-- Found pcl_msgs: 1.0.0 (/opt/ros/jazzy/share/pcl_msgs/cmake)\n'}
+[0.781180] (lio_sam) StdoutLine: {'line': b'-- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)\n'}
+[0.784803] (lio_sam) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)\n'}
+[0.795205] (lio_sam) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)\n'}
+[0.796009] (lio_sam) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[0.796055] (lio_sam) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[0.800595] (-) TimerEvent: {}
+[0.880773] (lio_sam) StdoutLine: {'line': b'-- Found tf2_sensor_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)\n'}
+[0.884597] (lio_sam) StdoutLine: {'line': b'-- Found tf2_eigen: 0.36.8 (/opt/ros/jazzy/share/tf2_eigen/cmake)\n'}
+[0.888669] (lio_sam) StdoutLine: {'line': b'-- Found OpenCV: /usr (found version "4.6.0") \n'}
+[0.900660] (-) TimerEvent: {}
+[0.910995] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization \n'}
+[0.911945] (lio_sam) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):\n'}
+[0.912024] (lio_sam) StderrLine: {'line': b'  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT\n'}
+[0.912060] (lio_sam) StderrLine: {'line': b'  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the\n'}
+[0.912091] (lio_sam) StderrLine: {'line': b'  cmake_policy command to set the policy and suppress this warning.\n'}
+[0.912121] (lio_sam) StderrLine: {'line': b'\n'}
+[0.912152] (lio_sam) StderrLine: {'line': b'  CMake variable FLANN_ROOT is set to:\n'}
+[0.912183] (lio_sam) StderrLine: {'line': b'\n'}
+[0.912212] (lio_sam) StderrLine: {'line': b'    /usr\n'}
+[0.912244] (lio_sam) StderrLine: {'line': b'\n'}
+[0.912272] (lio_sam) StderrLine: {'line': b'  For compatibility, find_package is ignoring the variable, but code in a\n'}
+[0.912302] (lio_sam) StderrLine: {'line': b'  .cmake module might still use it.\n'}
+[0.912331] (lio_sam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[0.912358] (lio_sam) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)\n'}
+[0.912386] (lio_sam) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)\n'}
+[0.912437] (lio_sam) StderrLine: {'line': b'  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)\n'}
+[0.912465] (lio_sam) StderrLine: {'line': b'  CMakeLists.txt:27 (find_package)\n'}
+[0.912493] (lio_sam) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[0.912521] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[0.912600] (lio_sam) StdoutLine: {'line': b'-- Found flann version 1.9.2\n'}
+[1.000823] (-) TimerEvent: {}
+[1.101051] (-) TimerEvent: {}
+[1.115599] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[1.115809] (lio_sam) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5") found components: CXX \n'}
+[1.140403] (lio_sam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.199526] (lio_sam) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.200535] (lio_sam) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201130] (-) TimerEvent: {}
+[1.202433] (lio_sam) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[1.207583] (lio_sam) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[1.301308] (-) TimerEvent: {}
+[1.322626] (lio_sam) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.322820] (lio_sam) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.324606] (lio_sam) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.333786] (lio_sam) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  \n'}
+[1.348070] (lio_sam) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") \n'}
+[1.356381] (lio_sam) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.401385] (-) TimerEvent: {}
+[1.455343] (lio_sam) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.455487] (lio_sam) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.501488] (-) TimerEvent: {}
+[1.519463] (lio_sam) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.519584] (lio_sam) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[1.575728] (lio_sam) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[1.575847] (lio_sam) StdoutLine: {'line': b'-- Looking for connect\n'}
+[1.601587] (-) TimerEvent: {}
+[1.635645] (lio_sam) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[1.635770] (lio_sam) StdoutLine: {'line': b'-- Looking for remove\n'}
+[1.693449] (lio_sam) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[1.693586] (lio_sam) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[1.701651] (-) TimerEvent: {}
+[1.753668] (lio_sam) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[1.753825] (lio_sam) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[1.801740] (-) TimerEvent: {}
+[1.814223] (lio_sam) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[1.901830] (-) TimerEvent: {}
+[1.907056] (lio_sam) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") \n'}
+[1.908663] (lio_sam) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[1.910415] (lio_sam) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") \n'}
+[1.911663] (lio_sam) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") \n'}
+[1.920965] (lio_sam) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[1.931968] (lio_sam) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  \n'}
+[1.935085] (lio_sam) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") \n'}
+[1.938667] (lio_sam) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[2.001950] (-) TimerEvent: {}
+[2.005009] (lio_sam) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.018241] (lio_sam) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.27\n'}
+[2.047424] (lio_sam) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.048119] (lio_sam) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[2.048162] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.090378] (lio_sam) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[2.090506] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.092427] (lio_sam) StdoutLine: {'line': b'-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) \n'}
+[2.092541] (lio_sam) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[2.102029] (-) TimerEvent: {}
+[2.202187] (-) TimerEvent: {}
+[2.302439] (-) TimerEvent: {}
+[2.384578] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.388790] (lio_sam) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.402508] (-) TimerEvent: {}
+[2.502692] (-) TimerEvent: {}
+[2.602914] (-) TimerEvent: {}
+[2.656687] (lio_sam) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[2.703003] (-) TimerEvent: {}
+[2.803203] (-) TimerEvent: {}
+[2.903402] (-) TimerEvent: {}
+[2.932860] (lio_sam) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.003583] (-) TimerEvent: {}
+[3.103780] (-) TimerEvent: {}
+[3.194770] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[3.195429] (lio_sam) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.195637] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[3.196355] (lio_sam) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.196452] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[3.197192] (lio_sam) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.197294] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[3.197878] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.197994] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[3.198647] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.198766] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[3.199444] (lio_sam) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.199562] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[3.199735] (lio_sam) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.14  \n'}
+[3.199881] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[3.200065] (lio_sam) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  \n'}
+[3.200183] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[3.200806] (lio_sam) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.200997] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[3.201657] (lio_sam) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.201825] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[3.202485] (lio_sam) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.202605] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[3.203244] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.203473] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[3.203840] (-) TimerEvent: {}
+[3.204181] (lio_sam) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.204403] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[3.205087] (lio_sam) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.205286] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[3.206033] (lio_sam) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.206241] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[3.206983] (lio_sam) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.207181] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[3.207944] (lio_sam) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.208120] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[3.208845] (lio_sam) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.209231] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[3.209980] (lio_sam) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.210088] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[3.210788] (lio_sam) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.211229] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[3.211464] (lio_sam) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  \n'}
+[3.211600] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[3.211850] (lio_sam) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.14  \n'}
+[3.211966] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[3.212221] (lio_sam) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  \n'}
+[3.212341] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[3.213095] (lio_sam) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.213282] (lio_sam) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[3.214051] (lio_sam) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.214714] (lio_sam) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[3.234942] (lio_sam) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex \n'}
+[3.236736] (lio_sam) StdoutLine: {'line': b'-- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include\n'}
+[3.237607] (lio_sam) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[3.239251] (lio_sam) StdoutLine: {'line': b'-- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)\n'}
+[3.303998] (-) TimerEvent: {}
+[3.404254] (-) TimerEvent: {}
+[3.504499] (-) TimerEvent: {}
+[3.604761] (-) TimerEvent: {}
+[3.654684] (lio_sam) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.704840] (-) TimerEvent: {}
+[3.805056] (-) TimerEvent: {}
+[3.905252] (-) TimerEvent: {}
+[4.005498] (-) TimerEvent: {}
+[4.009934] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.105672] (-) TimerEvent: {}
+[4.205865] (-) TimerEvent: {}
+[4.306139] (-) TimerEvent: {}
+[4.406392] (-) TimerEvent: {}
+[4.457662] (lio_sam) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.459981] (lio_sam) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[4.506491] (-) TimerEvent: {}
+[4.557915] (lio_sam) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3  \n'}
+[4.606648] (-) TimerEvent: {}
+[4.706834] (-) TimerEvent: {}
+[4.807044] (-) TimerEvent: {}
+[4.831607] (lio_sam) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[4.893751] (lio_sam) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[4.893861] (lio_sam) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[4.893897] (lio_sam) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[4.893927] (lio_sam) StderrLine: {'line': b'\n'}
+[4.893957] (lio_sam) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[4.893987] (lio_sam) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[4.894016] (lio_sam) StderrLine: {'line': b'\n'}
+[4.894044] (lio_sam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.894072] (lio_sam) StderrLine: {'line': b'  CMakeLists.txt:40 (rosidl_target_interfaces)\n'}
+[4.894100] (lio_sam) StderrLine: {'line': b'\n'}
+[4.894129] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[4.907128] (-) TimerEvent: {}
+[4.912254] (lio_sam) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[4.912326] (lio_sam) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[4.912358] (lio_sam) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[4.912393] (lio_sam) StderrLine: {'line': b'\n'}
+[4.912423] (lio_sam) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[4.912453] (lio_sam) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[4.912481] (lio_sam) StderrLine: {'line': b'\n'}
+[4.912509] (lio_sam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.912537] (lio_sam) StderrLine: {'line': b'  CMakeLists.txt:44 (rosidl_target_interfaces)\n'}
+[4.912570] (lio_sam) StderrLine: {'line': b'\n'}
+[4.912599] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[4.930326] (lio_sam) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[4.930374] (lio_sam) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[4.930408] (lio_sam) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[4.930438] (lio_sam) StderrLine: {'line': b'\n'}
+[4.930466] (lio_sam) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[4.930495] (lio_sam) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[4.930524] (lio_sam) StderrLine: {'line': b'\n'}
+[4.930552] (lio_sam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.930584] (lio_sam) StderrLine: {'line': b'  CMakeLists.txt:49 (rosidl_target_interfaces)\n'}
+[4.930612] (lio_sam) StderrLine: {'line': b'\n'}
+[4.930639] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[4.948480] (lio_sam) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[4.948570] (lio_sam) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[4.948613] (lio_sam) StderrLine: {'line': b'  rosidl_target_interfaces().  i.e:\n'}
+[4.948645] (lio_sam) StderrLine: {'line': b'\n'}
+[4.948676] (lio_sam) StderrLine: {'line': b'    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")\n'}
+[4.948706] (lio_sam) StderrLine: {'line': b'    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")\n'}
+[4.948735] (lio_sam) StderrLine: {'line': b'\n'}
+[4.948763] (lio_sam) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[4.948792] (lio_sam) StderrLine: {'line': b'  CMakeLists.txt:54 (rosidl_target_interfaces)\n'}
+[4.948820] (lio_sam) StderrLine: {'line': b'\n'}
+[4.948849] (lio_sam) StderrLine: {'line': b'\x1b[0m\n'}
+[4.950884] (lio_sam) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[4.969246] (lio_sam) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[4.984621] (lio_sam) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[4.986040] (lio_sam) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/yuanyan/LIO-SAM-ros2/include/lio_sam;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_generator_c>;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_typesupport_introspection_cpp>;/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_generator_c;/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_generator_py\n'}
+[4.986136] (lio_sam) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.000683] (lio_sam) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.000770] (lio_sam) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.002880] (lio_sam) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[5.002967] (lio_sam) StdoutLine: {'line': b"-- Configured 'flake8' exclude dirs and/or files: \n"}
+[5.006862] (lio_sam) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.007186] (-) TimerEvent: {}
+[5.009088] (lio_sam) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[5.023734] (lio_sam) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.023833] (lio_sam) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.025959] (lio_sam) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.027780] (lio_sam) StdoutLine: {'line': b'-- Configuring done (5.0s)\n'}
+[5.107360] (-) TimerEvent: {}
+[5.119414] (lio_sam) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.136024] (lio_sam) StdoutLine: {'line': b'-- Build files have been written to: /home/yuanyan/LIO-SAM-ros2/build/lio_sam\n'}
+[5.151126] (lio_sam) CommandEnded: {'returncode': 0}
+[5.152151] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[5.152166] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/yuanyan/LIO-SAM-ros2/build/lio_sam', '--', '-j16', '-l16'], 'cwd': '/home/yuanyan/LIO-SAM-ros2/build/lio_sam', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yuanyan', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yuanyan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3401', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e6b8292455f341fc3c47957a67e05a1f', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yuanyan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yuanyan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yuanyan:@/tmp/.ICE-unix/3401,unix/yuanyan:/tmp/.ICE-unix/3401', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c3346c23_8602_49be_bb70_d31f5ff8efe8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.262', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yuanyan/LIO-SAM-ros2/build/lio_sam', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e6b8292455f341fc3c47957a67e05a1f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[5.192678] (lio_sam) StdoutLine: {'line': b'[  1%] Built target lio_sam__rosidl_generator_type_description\n'}
+[5.198898] (lio_sam) StdoutLine: {'line': b'[  1%] Built target ament_cmake_python_symlink_lio_sam\n'}
+[5.207467] (-) TimerEvent: {}
+[5.207593] (lio_sam) StdoutLine: {'line': b'[ 17%] Built target lio_sam__rosidl_generator_c\n'}
+[5.207989] (lio_sam) StdoutLine: {'line': b'[ 19%] Built target lio_sam__cpp\n'}
+[5.223875] (lio_sam) StdoutLine: {'line': b'[ 42%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[5.224110] (lio_sam) StdoutLine: {'line': b'[ 42%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[5.224204] (lio_sam) StdoutLine: {'line': b'[ 42%] Built target lio_sam__rosidl_typesupport_c\n'}
+[5.224291] (lio_sam) StdoutLine: {'line': b'[ 50%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[5.226592] (lio_sam) StdoutLine: {'line': b'[ 57%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[5.241740] (lio_sam) StdoutLine: {'line': b'[ 65%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[5.255817] (lio_sam) StdoutLine: {'line': b'[ 65%] Built target lio_sam\n'}
+[5.275470] (lio_sam) StdoutLine: {'line': b'[ 67%] Built target lio_sam__py\n'}
+[5.285251] (lio_sam) StdoutLine: {'line': b'[ 71%] Built target lio_sam_imageProjection\n'}
+[5.285858] (lio_sam) StdoutLine: {'line': b'[ 75%] Built target lio_sam_featureExtraction\n'}
+[5.287382] (lio_sam) StdoutLine: {'line': b'[ 78%] Built target lio_sam_mapOptimization\n'}
+[5.289150] (lio_sam) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o\x1b[0m\n'}
+[5.298336] (lio_sam) StdoutLine: {'line': b'[ 86%] Built target lio_sam__rosidl_generator_py\n'}
+[5.307571] (-) TimerEvent: {}
+[5.314143] (lio_sam) StdoutLine: {'line': b'[ 94%] Built target lio_sam_s__rosidl_typesupport_introspection_c\n'}
+[5.314340] (lio_sam) StdoutLine: {'line': b'[ 94%] Built target lio_sam_s__rosidl_typesupport_c\n'}
+[5.316197] (lio_sam) StdoutLine: {'line': b'[ 98%] Built target lio_sam_s__rosidl_typesupport_fastrtps_c\n'}
+[5.332888] (lio_sam) StdoutLine: {'line': b'running egg_info\n'}
+[5.344020] (lio_sam) StdoutLine: {'line': b'writing lio_sam.egg-info/PKG-INFO\n'}
+[5.344180] (lio_sam) StdoutLine: {'line': b'writing dependency_links to lio_sam.egg-info/dependency_links.txt\n'}
+[5.344288] (lio_sam) StdoutLine: {'line': b'writing top-level names to lio_sam.egg-info/top_level.txt\n'}
+[5.375459] (lio_sam) StdoutLine: {'line': b"reading manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[5.375771] (lio_sam) StdoutLine: {'line': b"writing manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[5.393349] (lio_sam) StdoutLine: {'line': b'[ 98%] Built target ament_cmake_python_build_lio_sam_egg\n'}
+[5.407636] (-) TimerEvent: {}
+[5.507848] (-) TimerEvent: {}
+[5.608200] (-) TimerEvent: {}
+[5.708543] (-) TimerEvent: {}
+[5.808888] (-) TimerEvent: {}
+[5.909199] (-) TimerEvent: {}
+[6.009476] (-) TimerEvent: {}
+[6.109830] (-) TimerEvent: {}
+[6.210157] (-) TimerEvent: {}
+[6.310506] (-) TimerEvent: {}
+[6.410872] (-) TimerEvent: {}
+[6.511228] (-) TimerEvent: {}
+[6.611603] (-) TimerEvent: {}
+[6.711924] (-) TimerEvent: {}
+[6.812274] (-) TimerEvent: {}
+[6.912623] (-) TimerEvent: {}
+[7.012883] (-) TimerEvent: {}
+[7.113232] (-) TimerEvent: {}
+[7.213596] (-) TimerEvent: {}
+[7.313864] (-) TimerEvent: {}
+[7.414220] (-) TimerEvent: {}
+[7.514583] (-) TimerEvent: {}
+[7.614940] (-) TimerEvent: {}
+[7.715278] (-) TimerEvent: {}
+[7.815633] (-) TimerEvent: {}
+[7.915990] (-) TimerEvent: {}
+[8.016326] (-) TimerEvent: {}
+[8.116686] (-) TimerEvent: {}
+[8.216948] (-) TimerEvent: {}
+[8.317304] (-) TimerEvent: {}
+[8.417660] (-) TimerEvent: {}
+[8.517923] (-) TimerEvent: {}
+[8.618272] (-) TimerEvent: {}
+[8.718540] (-) TimerEvent: {}
+[8.818819] (-) TimerEvent: {}
+[8.919170] (-) TimerEvent: {}
+[9.019532] (-) TimerEvent: {}
+[9.119893] (-) TimerEvent: {}
+[9.220273] (-) TimerEvent: {}
+[9.320628] (-) TimerEvent: {}
+[9.420983] (-) TimerEvent: {}
+[9.521334] (-) TimerEvent: {}
+[9.621698] (-) TimerEvent: {}
+[9.721965] (-) TimerEvent: {}
+[9.822320] (-) TimerEvent: {}
+[9.922678] (-) TimerEvent: {}
+[10.022947] (-) TimerEvent: {}
+[10.123310] (-) TimerEvent: {}
+[10.223665] (-) TimerEvent: {}
+[10.324016] (-) TimerEvent: {}
+[10.424370] (-) TimerEvent: {}
+[10.524678] (-) TimerEvent: {}
+[10.625038] (-) TimerEvent: {}
+[10.725412] (-) TimerEvent: {}
+[10.825774] (-) TimerEvent: {}
+[10.926069] (-) TimerEvent: {}
+[11.026380] (-) TimerEvent: {}
+[11.126659] (-) TimerEvent: {}
+[11.226889] (-) TimerEvent: {}
+[11.327127] (-) TimerEvent: {}
+[11.427450] (-) TimerEvent: {}
+[11.527753] (-) TimerEvent: {}
+[11.628053] (-) TimerEvent: {}
+[11.728339] (-) TimerEvent: {}
+[11.828628] (-) TimerEvent: {}
+[11.928827] (-) TimerEvent: {}
+[12.029140] (-) TimerEvent: {}
+[12.129430] (-) TimerEvent: {}
+[12.229687] (-) TimerEvent: {}
+[12.329977] (-) TimerEvent: {}
+[12.430208] (-) TimerEvent: {}
+[12.530534] (-) TimerEvent: {}
+[12.630818] (-) TimerEvent: {}
+[12.731044] (-) TimerEvent: {}
+[12.831383] (-) TimerEvent: {}
+[12.931604] (-) TimerEvent: {}
+[13.031884] (-) TimerEvent: {}
+[13.132190] (-) TimerEvent: {}
+[13.232471] (-) TimerEvent: {}
+[13.332757] (-) TimerEvent: {}
+[13.433023] (-) TimerEvent: {}
+[13.533300] (-) TimerEvent: {}
+[13.633617] (-) TimerEvent: {}
+[13.733820] (-) TimerEvent: {}
+[13.834112] (-) TimerEvent: {}
+[13.934377] (-) TimerEvent: {}
+[14.034681] (-) TimerEvent: {}
+[14.134964] (-) TimerEvent: {}
+[14.235196] (-) TimerEvent: {}
+[14.335496] (-) TimerEvent: {}
+[14.435721] (-) TimerEvent: {}
+[14.536013] (-) TimerEvent: {}
+[14.636289] (-) TimerEvent: {}
+[14.736621] (-) TimerEvent: {}
+[14.836906] (-) TimerEvent: {}
+[14.937223] (-) TimerEvent: {}
+[15.037508] (-) TimerEvent: {}
+[15.137796] (-) TimerEvent: {}
+[15.238066] (-) TimerEvent: {}
+[15.338353] (-) TimerEvent: {}
+[15.438664] (-) TimerEvent: {}
+[15.538959] (-) TimerEvent: {}
+[15.639282] (-) TimerEvent: {}
+[15.739603] (-) TimerEvent: {}
+[15.839899] (-) TimerEvent: {}
+[15.940205] (-) TimerEvent: {}
+[16.040477] (-) TimerEvent: {}
+[16.140767] (-) TimerEvent: {}
+[16.241030] (-) TimerEvent: {}
+[16.341304] (-) TimerEvent: {}
+[16.441625] (-) TimerEvent: {}
+[16.541945] (-) TimerEvent: {}
+[16.642265] (-) TimerEvent: {}
+[16.742534] (-) TimerEvent: {}
+[16.842825] (-) TimerEvent: {}
+[16.943065] (-) TimerEvent: {}
+[17.043372] (-) TimerEvent: {}
+[17.143679] (-) TimerEvent: {}
+[17.243918] (-) TimerEvent: {}
+[17.344220] (-) TimerEvent: {}
+[17.444540] (-) TimerEvent: {}
+[17.544843] (-) TimerEvent: {}
+[17.645143] (-) TimerEvent: {}
+[17.745450] (-) TimerEvent: {}
+[17.845785] (-) TimerEvent: {}
+[17.946019] (-) TimerEvent: {}
+[18.046325] (-) TimerEvent: {}
+[18.146627] (-) TimerEvent: {}
+[18.246834] (-) TimerEvent: {}
+[18.347123] (-) TimerEvent: {}
+[18.447417] (-) TimerEvent: {}
+[18.547699] (-) TimerEvent: {}
+[18.647987] (-) TimerEvent: {}
+[18.748260] (-) TimerEvent: {}
+[18.848545] (-) TimerEvent: {}
+[18.948770] (-) TimerEvent: {}
+[19.049048] (-) TimerEvent: {}
+[19.149325] (-) TimerEvent: {}
+[19.249610] (-) TimerEvent: {}
+[19.349888] (-) TimerEvent: {}
+[19.450117] (-) TimerEvent: {}
+[19.550383] (-) TimerEvent: {}
+[19.650654] (-) TimerEvent: {}
+[19.750930] (-) TimerEvent: {}
+[19.851209] (-) TimerEvent: {}
+[19.951484] (-) TimerEvent: {}
+[20.051771] (-) TimerEvent: {}
+[20.152078] (-) TimerEvent: {}
+[20.252361] (-) TimerEvent: {}
+[20.352639] (-) TimerEvent: {}
+[20.452846] (-) TimerEvent: {}
+[20.553125] (-) TimerEvent: {}
+[20.653405] (-) TimerEvent: {}
+[20.753683] (-) TimerEvent: {}
+[20.853957] (-) TimerEvent: {}
+[20.954264] (-) TimerEvent: {}
+[21.054560] (-) TimerEvent: {}
+[21.154838] (-) TimerEvent: {}
+[21.255113] (-) TimerEvent: {}
+[21.355393] (-) TimerEvent: {}
+[21.455674] (-) TimerEvent: {}
+[21.555970] (-) TimerEvent: {}
+[21.656246] (-) TimerEvent: {}
+[21.756562] (-) TimerEvent: {}
+[21.856840] (-) TimerEvent: {}
+[21.957071] (-) TimerEvent: {}
+[22.057357] (-) TimerEvent: {}
+[22.157674] (-) TimerEvent: {}
+[22.258005] (-) TimerEvent: {}
+[22.358278] (-) TimerEvent: {}
+[22.458573] (-) TimerEvent: {}
+[22.558814] (-) TimerEvent: {}
+[22.659166] (-) TimerEvent: {}
+[22.759455] (-) TimerEvent: {}
+[22.859737] (-) TimerEvent: {}
+[22.959949] (-) TimerEvent: {}
+[23.060243] (-) TimerEvent: {}
+[23.160530] (-) TimerEvent: {}
+[23.260817] (-) TimerEvent: {}
+[23.361110] (-) TimerEvent: {}
+[23.461370] (-) TimerEvent: {}
+[23.561677] (-) TimerEvent: {}
+[23.661992] (-) TimerEvent: {}
+[23.762276] (-) TimerEvent: {}
+[23.862576] (-) TimerEvent: {}
+[23.962869] (-) TimerEvent: {}
+[24.063159] (-) TimerEvent: {}
+[24.163446] (-) TimerEvent: {}
+[24.263728] (-) TimerEvent: {}
+[24.364024] (-) TimerEvent: {}
+[24.464310] (-) TimerEvent: {}
+[24.564598] (-) TimerEvent: {}
+[24.664934] (-) TimerEvent: {}
+[24.765212] (-) TimerEvent: {}
+[24.865506] (-) TimerEvent: {}
+[24.965827] (-) TimerEvent: {}
+[25.066115] (-) TimerEvent: {}
+[25.166399] (-) TimerEvent: {}
+[25.266680] (-) TimerEvent: {}
+[25.366964] (-) TimerEvent: {}
+[25.467240] (-) TimerEvent: {}
+[25.567528] (-) TimerEvent: {}
+[25.649024] (lio_sam) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable lio_sam_imuPreintegration\x1b[0m\n'}
+[25.667619] (-) TimerEvent: {}
+[25.767935] (-) TimerEvent: {}
+[25.868248] (-) TimerEvent: {}
+[25.968529] (-) TimerEvent: {}
+[26.068831] (-) TimerEvent: {}
+[26.087601] (lio_sam) StdoutLine: {'line': b'[100%] Built target lio_sam_imuPreintegration\n'}
+[26.096074] (lio_sam) CommandEnded: {'returncode': 0}
+[26.096425] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'install'}
+[26.102354] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/yuanyan/LIO-SAM-ros2/build/lio_sam'], 'cwd': '/home/yuanyan/LIO-SAM-ros2/build/lio_sam', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'yuanyan', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/yuanyan', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'DBUS_STARTER_BUS_TYPE': 'session', 'SYSTEMD_EXEC_PID': '3401', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e6b8292455f341fc3c47957a67e05a1f', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'yuanyan', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/app.slice/app-gnome\\x2dsession\\x2dmanager.slice/gnome-session-manager@ubuntu.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'yuanyan', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/yuanyan:@/tmp/.ICE-unix/3401,unix/yuanyan:/tmp/.ICE-unix/3401', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/c3346c23_8602_49be_bb70_d31f5ff8efe8', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.262', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/yuanyan/LIO-SAM-ros2/build/lio_sam', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'DBUS_STARTER_ADDRESS': 'unix:path=/run/user/1000/bus,guid=e6b8292455f341fc3c47957a67e05a1f', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[26.109927] (lio_sam) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[26.110466] (lio_sam) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[26.110695] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam\n'}
+[26.117294] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/msg/CloudInfo.json\n'}
+[26.122633] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/srv/SaveMap.json\n'}
+[26.129392] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h\n'}
+[26.136067] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h\n'}
+[26.142528] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h\n'}
+[26.148655] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h\n'}
+[26.153873] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h\n'}
+[26.159515] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h\n'}
+[26.165024] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h\n'}
+[26.168897] (-) TimerEvent: {}
+[26.169999] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h\n'}
+[26.175736] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h\n'}
+[26.181234] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/environment/library_path.sh\n'}
+[26.186180] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/environment/library_path.dsv\n'}
+[26.191814] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h\n'}
+[26.197155] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[26.202208] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h\n'}
+[26.207416] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h\n'}
+[26.212823] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[26.218057] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h\n'}
+[26.223734] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp\n'}
+[26.228846] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp\n'}
+[26.233697] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp\n'}
+[26.239010] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp\n'}
+[26.244166] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp\n'}
+[26.250285] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[26.255427] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp\n'}
+[26.260589] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp\n'}
+[26.266659] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp\n'}
+[26.268993] (-) TimerEvent: {}
+[26.271934] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp\n'}
+[26.276890] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp\n'}
+[26.283720] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.288992] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[26.294073] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.300760] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.307790] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.315223] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/environment/pythonpath.sh\n'}
+[26.321256] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/environment/pythonpath.dsv\n'}
+[26.326343] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/PKG-INFO\n'}
+[26.332024] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[26.339069] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[26.343753] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/top_level.txt\n'}
+[26.350323] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/__init__.py\n'}
+[26.356547] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c\n'}
+[26.362249] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[26.366893] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[26.369095] (-) TimerEvent: {}
+[26.372867] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.so\n'}
+[26.378490] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so\n'}
+[26.384159] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so\n'}
+[26.388996] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/__init__.py\n'}
+[26.393896] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info.py\n'}
+[26.399768] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info_s.c\n'}
+[26.405964] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/__init__.py\n'}
+[26.411543] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map.py\n'}
+[26.417249] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map_s.c\n'}
+[26.422585] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so\n'}
+[26.422700] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so\n'}
+[26.422799] (lio_sam) StdoutLine: {'line': b'-- Up-to-date symlink: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.so\n'}
+[26.422870] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/msg/CloudInfo.idl\n'}
+[26.428142] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/srv/SaveMap.idl\n'}
+[26.435398] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/msg/CloudInfo.msg\n'}
+[26.442577] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/srv/SaveMap.srv\n'}
+[26.450525] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//launch/run.launch.py\n'}
+[26.458207] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/demo.gif\n'}
+[26.465889] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/device-boat.png\n'}
+[26.469181] (-) TimerEvent: {}
+[26.472776] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png\n'}
+[26.477803] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/device-hand.png\n'}
+[26.483794] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/device-jackal.png\n'}
+[26.488635] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif\n'}
+[26.494084] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif\n'}
+[26.500954] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/imu-transform.png\n'}
+[26.507270] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif\n'}
+[26.511863] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/kitti-map.png\n'}
+[26.519681] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md\n'}
+[26.524823] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py\n'}
+[26.532045] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif\n'}
+[26.538739] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif\n'}
+[26.544178] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif\n'}
+[26.549415] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg\n'}
+[26.554989] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/paper.pdf\n'}
+[26.560847] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/doc/system.png\n'}
+[26.565778] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/params.yaml\n'}
+[26.569325] (-) TimerEvent: {}
+[26.571561] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/robot.urdf.xacro\n'}
+[26.577318] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam//config/rviz2.rviz\n'}
+[26.582508] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/lio_sam/lio_sam_imageProjection\n'}
+[26.587751] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration\n'}
+[26.592915] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction\n'}
+[26.598347] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization\n'}
+[26.603350] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/include/lio_sam/utility.hpp\n'}
+[26.608687] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam\n'}
+[26.614343] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam\n'}
+[26.619142] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh\n'}
+[26.624892] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv\n'}
+[26.630178] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/environment/path.sh\n'}
+[26.635110] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/environment/path.dsv\n'}
+[26.639907] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/local_setup.bash\n'}
+[26.644925] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/local_setup.sh\n'}
+[26.649824] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/local_setup.zsh\n'}
+[26.657516] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/local_setup.dsv\n'}
+[26.662950] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/package.dsv\n'}
+[26.669478] (-) TimerEvent: {}
+[26.669765] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/ament_index/resource_index/packages/lio_sam\n'}
+[26.676082] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake\n'}
+[26.683370] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.689546] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.695705] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.701894] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.707216] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[26.713316] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[26.718384] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake\n'}
+[26.725308] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake\n'}
+[26.731335] (lio_sam) StdoutLine: {'line': b'-- Symlinking: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/package.xml\n'}
+[26.736317] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so\n'}
+[26.736509] (lio_sam) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""\n'}
+[26.736587] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so\n'}
+[26.736721] (lio_sam) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[26.736794] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so\n'}
+[26.736895] (lio_sam) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""\n'}
+[26.736968] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so\n'}
+[26.737040] (lio_sam) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""\n'}
+[26.737111] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so\n'}
+[26.737232] (lio_sam) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[26.737303] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so\n'}
+[26.737411] (lio_sam) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[26.737483] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so\n'}
+[26.737727] (lio_sam) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""\n'}
+[26.767510] (lio_sam) StdoutLine: {'line': b"Listing '/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam'...\n"}
+[26.767640] (lio_sam) StdoutLine: {'line': b"Compiling '/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/__init__.py'...\n"}
+[26.767682] (lio_sam) StdoutLine: {'line': b"Listing '/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg'...\n"}
+[26.767715] (lio_sam) StdoutLine: {'line': b"Compiling '/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/__init__.py'...\n"}
+[26.767748] (lio_sam) StdoutLine: {'line': b"Compiling '/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info.py'...\n"}
+[26.767786] (lio_sam) StdoutLine: {'line': b"Listing '/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv'...\n"}
+[26.767818] (lio_sam) StdoutLine: {'line': b"Compiling '/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/__init__.py'...\n"}
+[26.767849] (lio_sam) StdoutLine: {'line': b"Compiling '/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map.py'...\n"}
+[26.769582] (-) TimerEvent: {}
+[26.771768] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so\n'}
+[26.771990] (lio_sam) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/yuanyan/LIO-SAM-ros2/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so" to ""\n'}
+[26.772041] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake\n'}
+[26.772086] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake\n'}
+[26.772125] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[26.772170] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake\n'}
+[26.772217] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake\n'}
+[26.772262] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake\n'}
+[26.772305] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake\n'}
+[26.772348] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake\n'}
+[26.772394] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake\n'}
+[26.772446] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[26.772501] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake\n'}
+[26.772551] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[26.772606] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake\n'}
+[26.772670] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake\n'}
+[26.772722] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake\n'}
+[26.772766] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake\n'}
+[26.772810] (lio_sam) StdoutLine: {'line': b'-- Installing: /home/yuanyan/LIO-SAM-ros2/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake\n'}
+[26.774044] (lio_sam) CommandEnded: {'returncode': 0}
+[26.786409] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 0}
+[26.786839] (-) EventReactorShutdown: {}

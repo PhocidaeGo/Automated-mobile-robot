@@ -1,0 +1,91 @@
+[33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+  Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+  variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+  cmake_policy command to set the policy and suppress this warning.
+
+  CMake variable FLANN_ROOT is set to:
+
+    /usr
+
+  For compatibility, find_package is ignoring the variable, but code in a
+  .cmake module might still use it.
+Call Stack (most recent call first):
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+  /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+  CMakeLists.txt:27 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:40 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:44 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:49 (rosidl_target_interfaces)
+
+[0m
+[0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+  Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+  rosidl_target_interfaces().  i.e:
+
+    rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+    target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+
+Call Stack (most recent call first):
+  CMakeLists.txt:54 (rosidl_target_interfaces)
+
+[0m
+[01m[K/home/yuanyan/LIO-SAM-ros2/src/imuPreintegration.cpp:[m[K In constructor ‘[01m[KIMUPreintegration::[01;32m[KIMUPreintegration[m[K(const rclcpp::NodeOptions&)[m[K’:
+[01m[K/home/yuanyan/LIO-SAM-ros2/src/imuPreintegration.cpp:262:87:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgtsam::PreintegratedImuMeasurements::PreintegratedImuMeasurements(std::__shared_ptr_access<gtsam::PreintegrationParams, __gnu_cxx::_S_atomic, false, false>::element_type&, gtsam::imuBias::ConstantBias&)[m[K’
+  262 |         imuIntegratorImu_ = new gtsam::PreintegratedImuMeasurements(*p, prior_imu_bias[01;31m[K)[m[K; // setting up the IMU integration for IMU message thread
+      |                                                                                       [01;31m[K^[m[K
+In file included from [01m[K/home/yuanyan/LIO-SAM-ros2/src/imuPreintegration.cpp:8[m[K:
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:101:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurements::[01;32m[KPreintegratedImuMeasurements[m[K(const gtsam::PreintegrationType&, const gtsam::Matrix9&)[m[K’
+  101 |   [01;36m[KPreintegratedImuMeasurements[m[K(const PreintegrationType& base, const Matrix9& preintMeasCov)
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:101:58:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<gtsam::PreintegrationParams, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kgtsam::PreintegrationParams[m[K’} to ‘[01m[Kconst gtsam::PreintegrationType&[m[K’ {aka ‘[01m[Kconst gtsam::TangentPreintegration&[m[K’}
+  101 |   PreintegratedImuMeasurements([01;36m[Kconst PreintegrationType& base[m[K, const Matrix9& preintMeasCov)
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:90:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurements::[01;32m[KPreintegratedImuMeasurements[m[K(const std::shared_ptr<gtsam::PreintegrationParams>&, const gtsam::imuBias::ConstantBias&)[m[K’
+   90 |   [01;36m[KPreintegratedImuMeasurements[m[K(const std::shared_ptr<PreintegrationParams>& p,
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:90:77:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::__shared_ptr_access<gtsam::PreintegrationParams, __gnu_cxx::_S_atomic, false, false>::element_type[m[K’ {aka ‘[01m[Kgtsam::PreintegrationParams[m[K’} to ‘[01m[Kconst std::shared_ptr<gtsam::PreintegrationParams>&[m[K’
+   90 |   PreintegratedImuMeasurements([01;36m[Kconst std::shared_ptr<PreintegrationParams>& p[m[K,
+      |                                [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:81:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurements::[01;32m[KPreintegratedImuMeasurements[m[K()[m[K’
+   81 |   [01;36m[KPreintegratedImuMeasurements[m[K() {
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:81:3:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 2 provided
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:68:20:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::PreintegratedImuMeasurements::[01;32m[KPreintegratedImuMeasurements[m[K(const gtsam::PreintegratedImuMeasurements&)[m[K’
+   68 | class GTSAM_EXPORT [01;36m[KPreintegratedImuMeasurements[m[K: public PreintegrationType {
+      |                    [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/local/include/gtsam/navigation/ImuFactor.h:68:20:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76: CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:690: CMakeFiles/lio_sam_imuPreintegration.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

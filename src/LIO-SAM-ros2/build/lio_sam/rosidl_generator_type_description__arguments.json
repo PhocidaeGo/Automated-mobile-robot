@@ -1,0 +1,15 @@
+{
+  "package_name": "lio_sam",
+  "output_dir": "/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_generator_type_description/lio_sam",
+  "idl_tuples": [
+    "/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_adapter/lio_sam:msg/CloudInfo.idl",
+    "/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_adapter/lio_sam:srv/SaveMap.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "sensor_msgs:/opt/ros/jazzy/share/sensor_msgs",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs"
+  ]
+}

@@ -1,0 +1,122 @@
+[0.016s] Invoking command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/waypoint_rviz_plugin
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.096s] -- The CXX compiler identification is GNU 13.3.0
+[0.108s] -- Detecting C compiler ABI info
+[0.168s] -- Detecting C compiler ABI info - done
+[0.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.179s] -- Detecting C compile features
+[0.180s] -- Detecting C compile features - done
+[0.187s] -- Detecting CXX compiler ABI info
+[0.261s] -- Detecting CXX compiler ABI info - done
+[0.268s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.268s] -- Detecting CXX compile features
+[0.268s] -- Detecting CXX compile features - done
+[0.270s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.373s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.439s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.487s] -- Found pluginlib: 5.4.2 (/opt/ros/jazzy/share/pluginlib/cmake)
+[0.515s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.528s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.550s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.561s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.573s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.583s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.640s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.642s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.661s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.695s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.698s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.710s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.712s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.718s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.726s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.778s] -- Found rviz2: 14.1.7 (/opt/ros/jazzy/share/rviz2/cmake)
+[0.780s] -- Found rviz_common: 14.1.7 (/opt/ros/jazzy/share/rviz_common/cmake)
+[0.813s] -- Setting OGRE_DIR to: '/opt/ros/jazzy/share/rviz_ogre_vendor/cmake/../../../opt/rviz_ogre_vendor/lib/OGRE/cmake'
+[0.814s] -- Found OGRE
+[0.814s] --   static     : OFF
+[0.814s] --   components : MeshLodGenerator;Overlay;Paging;Property;RTShaderSystem;Terrain;Volume
+[0.815s] --   plugins    : Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.815s] --   media      : /opt/ros/jazzy/opt/rviz_ogre_vendor/share/OGRE/Media
+[0.815s] -- OGRE_LIBRARIES: OgreMeshLodGenerator;OgreOverlay;OgrePaging;OgreProperty;OgreRTShaderSystem;OgreTerrain;OgreVolume;OgreMain
+[0.815s] -- OGRE_LIBRARY_DIRS: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib
+[0.815s] -- OGRE_PLUGINS: Plugin_BSPSceneManager;Plugin_OctreeSceneManager;Plugin_PCZSceneManager;Plugin_ParticleFX;RenderSystem_GL;RenderSystem_GL3Plus;Codec_STBI
+[0.815s] -- OGRE_PLUGIN_DIR: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/OGRE
+[0.815s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.815s] -- rviz_ogre_vendor::OgreOverlay for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreOverlay.so
+[0.815s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_RELEASE: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.815s] -- rviz_ogre_vendor::OgreMain for IMPORTED_LOCATION_DEBUG: /opt/ros/jazzy/opt/rviz_ogre_vendor/lib/libOgreMain.so
+[0.836s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[0.843s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so   
+[0.986s] -- Found X11: /usr/include   
+[0.986s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.060s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.060s] -- Looking for gethostbyname
+[1.121s] -- Looking for gethostbyname - found
+[1.121s] -- Looking for connect
+[1.174s] -- Looking for connect - found
+[1.174s] -- Looking for remove
+[1.226s] -- Looking for remove - found
+[1.227s] -- Looking for shmat
+[1.295s] -- Looking for shmat - found
+[1.295s] -- Looking for IceConnectionNumber in ICE
+[1.354s] -- Looking for IceConnectionNumber in ICE - found
+[1.501s] -- Setting yaml-cpp_DIR to: '/opt/ros/jazzy/share/yaml_cpp_vendor/cmake/../../../opt/yaml_cpp_vendor/share/cmake/yaml-cpp'
+[1.508s] -- Found rviz_default_plugins: 14.1.7 (/opt/ros/jazzy/share/rviz_default_plugins/cmake)
+[1.625s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.626s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.626s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.645s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.740s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.741s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.741s] -- Configured cppcheck include dirs: /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin/include
+[1.741s] -- Configured cppcheck exclude dirs and/or files: 
+[1.742s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.742s] -- Configured cpplint exclude dirs and/or files: 
+[1.742s] -- Added test 'lint_cmake' to check CMake code style
+[1.743s] -- Added test 'uncrustify' to check C / C++ code style
+[1.743s] -- Configured uncrustify additional arguments: 
+[1.744s] -- Added test 'xmllint' to check XML markup files
+[1.745s] -- Configuring done (1.7s)
+[1.768s] -- Generating done (0.0s)
+[1.772s] -- Build files have been written to: /home/yuanyan/Robot/build/waypoint_rviz_plugin
+[1.785s] Invoked command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/waypoint_rviz_plugin
+[1.786s] Invoking command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/waypoint_rviz_plugin -- -j16 -l16
+[1.826s] [  0%] Built target waypoint_rviz_plugin_autogen_timestamp_deps
+[1.844s] [ 14%] [34m[1mAutomatic MOC for target waypoint_rviz_plugin[0m
+[1.871s] [ 14%] Built target waypoint_rviz_plugin_autogen
+[1.879s] [ 28%] [34m[1mGenerating include/moc_waypoint_tool.cpp[0m
+[1.902s] [ 42%] [32mBuilding CXX object CMakeFiles/waypoint_rviz_plugin.dir/waypoint_rviz_plugin_autogen/mocs_compilation.cpp.o[0m
+[1.902s] [ 57%] [32mBuilding CXX object CMakeFiles/waypoint_rviz_plugin.dir/src/waypoint_tool.cpp.o[0m
+[1.903s] [ 71%] [32mBuilding CXX object CMakeFiles/waypoint_rviz_plugin.dir/include/moc_waypoint_tool.cpp.o[0m
+[4.013s] [01m[K/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin/src/waypoint_tool.cpp:[m[K In member function ‘[01m[Kvirtual void waypoint_rviz_plugin::WaypointTool::[01;32m[KonPoseSet[m[K(double, double, double)[m[K’:
+[4.013s] [01m[K/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin/src/waypoint_tool.cpp:52:57:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktheta[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[4.013s]    52 | void WaypointTool::onPoseSet(double x, double y, [01;35m[Kdouble theta[m[K)
+[4.013s]       |                                                  [01;35m[K~~~~~~~^~~~~[m[K
+[9.138s] [ 85%] [32m[1mLinking CXX shared library libwaypoint_rviz_plugin.so[0m
+[10.279s] [100%] Built target waypoint_rviz_plugin
+[10.290s] Invoked command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/waypoint_rviz_plugin -- -j16 -l16
+[10.302s] Invoking command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/waypoint_rviz_plugin
+[10.312s] -- Install configuration: ""
+[10.312s] -- Execute custom install script
+[10.312s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin//plugin_description.xml
+[10.323s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/ament_index/resource_index/package_run_dependencies/waypoint_rviz_plugin
+[10.334s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/ament_index/resource_index/parent_prefix_path/waypoint_rviz_plugin
+[10.345s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/environment/ament_prefix_path.sh
+[10.356s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/environment/ament_prefix_path.dsv
+[10.368s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/environment/path.sh
+[10.376s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/environment/path.dsv
+[10.384s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/local_setup.bash
+[10.392s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/local_setup.sh
+[10.400s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/local_setup.zsh
+[10.408s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/local_setup.dsv
+[10.416s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.dsv
+[10.424s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/ament_index/resource_index/packages/waypoint_rviz_plugin
+[10.432s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/ament_index/resource_index/rviz_common__pluginlib__plugin/waypoint_rviz_plugin
+[10.440s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[10.448s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/cmake/waypoint_rviz_pluginConfig.cmake
+[10.456s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/cmake/waypoint_rviz_pluginConfig-version.cmake
+[10.464s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.xml
+[10.472s] -- Installing: /home/yuanyan/Robot/install/waypoint_rviz_plugin/lib/waypoint_rviz_plugin/libwaypoint_rviz_plugin.so
+[10.475s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/waypoint_rviz_plugin/lib/waypoint_rviz_plugin/libwaypoint_rviz_plugin.so" to ""
+[10.477s] Invoked command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/waypoint_rviz_plugin

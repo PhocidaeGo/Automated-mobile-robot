@@ -1,0 +1,7 @@
+{
+  "package_name": "lio_sam",
+  "non_idl_tuples": [
+    "/home/yuanyan/Robot/src/LIO-SAM-ros2:msg/CloudInfo.msg",
+    "/home/yuanyan/Robot/src/LIO-SAM-ros2:srv/SaveMap.srv"
+  ]
+}

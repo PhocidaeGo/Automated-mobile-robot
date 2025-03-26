@@ -1,0 +1,141 @@
+[0.015s] Invoking command in '/home/yuanyan/Robot/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/terrain_analysis
+[0.060s] -- The C compiler identification is GNU 13.3.0
+[0.113s] -- The CXX compiler identification is GNU 13.3.0
+[0.126s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.206s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.206s] -- Detecting C compile features
+[0.207s] -- Detecting C compile features - done
+[0.215s] -- Detecting CXX compiler ABI info
+[0.292s] -- Detecting CXX compiler ABI info - done
+[0.303s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.303s] -- Detecting CXX compile features
+[0.304s] -- Detecting CXX compile features - done
+[0.308s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.455s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.534s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.581s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.634s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.652s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.673s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.697s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.800s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.804s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.883s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.898s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.914s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.983s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.995s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[1.029s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.047s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[1.150s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[1.163s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[1.164s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.164s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.167s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[1.245s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.245s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.245s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.245s]   cmake_policy command to set the policy and suppress this warning.
+[1.245s] 
+[1.245s]   CMake variable FLANN_ROOT is set to:
+[1.245s] 
+[1.245s]     /usr
+[1.245s] 
+[1.245s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.245s]   .cmake module might still use it.
+[1.245s] Call Stack (most recent call first):
+[1.245s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.245s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.245s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.245s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[1.245s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[1.245s]   CMakeLists.txt:28 (find_package)
+[1.245s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.245s] [0m
+[1.246s] -- Found flann version 1.9.2
+[1.451s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.451s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[2.551s] -- Checking for module 'libusb-1.0'
+[2.567s] --   Found libusb-1.0, version 1.0.27
+[2.595s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.595s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.655s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.658s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.672s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[2.696s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[3.043s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.049s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.341s] -- Found Qhull version 8.0.2
+[3.638s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.006s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.007s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.008s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.010s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.011s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.013s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.013s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[4.014s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[4.015s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.017s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.018s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.019s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.021s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.023s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.024s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.026s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.027s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.029s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.031s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.032s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.033s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[4.034s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[4.034s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[4.035s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.037s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.043s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[4.088s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.176s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.177s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.177s] -- Configured cppcheck include dirs: 
+[4.177s] -- Configured cppcheck exclude dirs and/or files: 
+[4.178s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.178s] -- Configured cpplint exclude dirs and/or files: 
+[4.178s] -- Added test 'lint_cmake' to check CMake code style
+[4.179s] -- Added test 'uncrustify' to check C / C++ code style
+[4.179s] -- Configured uncrustify additional arguments: 
+[4.180s] -- Added test 'xmllint' to check XML markup files
+[4.181s] -- Configuring done (4.2s)
+[4.214s] -- Generating done (0.0s)
+[4.219s] -- Build files have been written to: /home/yuanyan/Robot/build/terrain_analysis
+[4.238s] Invoked command in '/home/yuanyan/Robot/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/terrain_analysis
+[4.240s] Invoking command in '/home/yuanyan/Robot/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/terrain_analysis -- -j16 -l16
+[4.284s] [ 50%] [32mBuilding CXX object CMakeFiles/terrainAnalysis.dir/src/terrainAnalysis.cpp.o[0m
+[8.151s] [01m[K/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis/src/terrainAnalysis.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[8.152s] [01m[K/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis/src/terrainAnalysis.cpp:485:43:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around ‘[01m[K&&[m[K’ within ‘[01m[K||[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wparentheses-Wparentheses]8;;[m[K]
+[8.152s]   485 |                 if ([01;35m[Kangle4 > minDyObsVFOV && angle4 < maxDyObsVFOV[m[K || fabs(pointZ4) < absDyObsRelZThre) {
+[8.152s]       |                     [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.719s] [100%] [32m[1mLinking CXX executable terrainAnalysis[0m
+[19.592s] [100%] Built target terrainAnalysis
+[19.602s] Invoked command in '/home/yuanyan/Robot/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/terrain_analysis -- -j16 -l16
+[19.604s] Invoking command in '/home/yuanyan/Robot/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/terrain_analysis
+[19.613s] -- Install configuration: ""
+[19.613s] -- Execute custom install script
+[19.614s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/lib/terrain_analysis/terrainAnalysis
+[19.624s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/launch/terrain_analysis.launch
+[19.632s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/ament_index/resource_index/package_run_dependencies/terrain_analysis
+[19.640s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/ament_index/resource_index/parent_prefix_path/terrain_analysis
+[19.651s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.sh
+[19.661s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/environment/ament_prefix_path.dsv
+[19.668s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/environment/path.sh
+[19.674s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/environment/path.dsv
+[19.681s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/local_setup.bash
+[19.687s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/local_setup.sh
+[19.693s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/local_setup.zsh
+[19.699s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/local_setup.dsv
+[19.706s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.dsv
+[19.711s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/ament_index/resource_index/packages/terrain_analysis
+[19.717s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig.cmake
+[19.723s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/cmake/terrain_analysisConfig-version.cmake
+[19.732s] -- Symlinking: /home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.xml
+[19.741s] Invoked command in '/home/yuanyan/Robot/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/terrain_analysis

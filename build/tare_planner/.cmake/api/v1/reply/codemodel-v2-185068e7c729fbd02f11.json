@@ -1,0 +1,241 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-82414730b875231409ea.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tare_planner",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "exploration_path::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-exploration_path-3124a39f70c5705bca11.json",
+					"name" : "exploration_path",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "graph::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-graph-ecd8bfca617b9628d2b1.json",
+					"name" : "graph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "grid_world::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-grid_world-4d7b7b12380d8c35c21f.json",
+					"name" : "grid_world",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "keypose_graph::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-keypose_graph-9c38765dd5a77a5cf46e.json",
+					"name" : "keypose_graph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "lidar_model::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-lidar_model-679689397956247f0a19.json",
+					"name" : "lidar_model",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "local_coverage_planner::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-local_coverage_planner-6f4db4b1dac9db2c3f1d.json",
+					"name" : "local_coverage_planner",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "misc_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-misc_utils-4626a3eb634ef0fa8480.json",
+					"name" : "misc_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "navigationBoundary::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-navigationBoundary-e7a7653b4abd78f87558.json",
+					"name" : "navigationBoundary",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "planning_env::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-planning_env-720e0ed83088072c6f4a.json",
+					"name" : "planning_env",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_manager-81873d6356b6075361d6.json",
+					"name" : "pointcloud_manager",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "pointcloud_utils::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-pointcloud_utils-c6dcbec1edbe18dc4d4f.json",
+					"name" : "pointcloud_utils",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rolling_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rolling_grid-fe92754d703674acad12.json",
+					"name" : "rolling_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "rolling_occupancy_grid::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-rolling_occupancy_grid-b623cdd261a48224f411.json",
+					"name" : "rolling_occupancy_grid",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "sensor_coverage_planner_ground::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-sensor_coverage_planner_ground-88f237b77f1a30a5cafd.json",
+					"name" : "sensor_coverage_planner_ground",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tare_planner_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tare_planner_node-e1baf06aef49dc4b6de9.json",
+					"name" : "tare_planner_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tare_planner_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tare_planner_uninstall-e8c14101fc9ca54d8e1a.json",
+					"name" : "tare_planner_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tare_visualizer::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tare_visualizer-a152966414f7ed4b764f.json",
+					"name" : "tare_visualizer",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tsp_solver::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tsp_solver-5af595f17b6eb83d15a5.json",
+					"name" : "tsp_solver",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5798696b24d9a862412f.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "viewpoint::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-viewpoint-1499d8f238030482b350.json",
+					"name" : "viewpoint",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "viewpoint_manager::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-viewpoint_manager-4fe358d87dbaa64fac56.json",
+					"name" : "viewpoint_manager",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/yuanyan/Robot/build/tare_planner",
+		"source" : "/home/yuanyan/Robot/src/tare_planner/src/tare_planner"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

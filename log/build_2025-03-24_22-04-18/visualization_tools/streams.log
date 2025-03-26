@@ -1,0 +1,41 @@
+[0.020s] Invoking command in '/home/yuanyan/Robot/build/visualization_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/visualization_tools -- -j16 -l16
+[0.063s] [  0%] Built target ament_cmake_python_symlink_visualization_tools
+[0.066s] [100%] Built target visualizationTools
+[0.203s] running egg_info
+[0.214s] writing visualization_tools.egg-info/PKG-INFO
+[0.214s] writing dependency_links to visualization_tools.egg-info/dependency_links.txt
+[0.214s] writing top-level names to visualization_tools.egg-info/top_level.txt
+[0.245s] reading manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[0.245s] writing manifest file 'visualization_tools.egg-info/SOURCES.txt'
+[0.264s] [100%] Built target ament_cmake_python_build_visualization_tools_egg
+[0.273s] Invoked command in '/home/yuanyan/Robot/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/visualization_tools -- -j16 -l16
+[0.274s] Invoking command in '/home/yuanyan/Robot/build/visualization_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/visualization_tools
+[0.279s] -- Install configuration: ""
+[0.280s] -- Execute custom install script
+[0.280s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/lib/visualization_tools/visualizationTools
+[0.280s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/launch/visualization_tools.launch
+[0.280s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/environment/pythonpath.sh
+[0.280s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/environment/pythonpath.dsv
+[0.280s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/lib/python3.12/site-packages/visualization_tools-0.0.1-py3.12.egg-info/PKG-INFO
+[0.280s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/lib/python3.12/site-packages/visualization_tools-0.0.1-py3.12.egg-info/SOURCES.txt
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/lib/python3.12/site-packages/visualization_tools-0.0.1-py3.12.egg-info/dependency_links.txt
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/lib/python3.12/site-packages/visualization_tools-0.0.1-py3.12.egg-info/top_level.txt
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/lib/python3.12/site-packages/visualization_tools/__init__.py
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/lib/visualization_tools/realTimePlot.py
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/ament_index/resource_index/package_run_dependencies/visualization_tools
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/ament_index/resource_index/parent_prefix_path/visualization_tools
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.sh
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/environment/ament_prefix_path.dsv
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/environment/path.sh
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/environment/path.dsv
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/local_setup.bash
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/local_setup.sh
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/local_setup.zsh
+[0.281s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/local_setup.dsv
+[0.282s] -- Symlinking: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.dsv
+[0.287s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/ament_index/resource_index/packages/visualization_tools
+[0.287s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig.cmake
+[0.287s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/cmake/visualization_toolsConfig-version.cmake
+[0.287s] -- Up-to-date symlink: /home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.xml
+[0.311s] Listing '/home/yuanyan/Robot/install/visualization_tools/lib/python3.12/site-packages/visualization_tools'...
+[0.315s] Invoked command in '/home/yuanyan/Robot/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/visualization_tools

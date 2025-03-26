@@ -1,0 +1,1 @@
+/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_cmake/rosidl_cmake-extras.cmake

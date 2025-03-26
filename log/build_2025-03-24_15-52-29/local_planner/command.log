@@ -1,0 +1,1 @@
+Invoking command in '/home/yuanyan/Robot/build/local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/local_planner -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/local_planner

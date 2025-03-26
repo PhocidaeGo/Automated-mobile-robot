@@ -1,0 +1,1 @@
+Invoking command in '/home/yuanyan/Robot/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/terrain_analysis_ext

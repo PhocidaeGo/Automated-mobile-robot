@@ -1,0 +1,1 @@
+/home/yuanyan/Robot/build/waypoint_example/ament_cmake_core/waypoint_exampleConfig-version.cmake

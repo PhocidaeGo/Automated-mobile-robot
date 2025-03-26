@@ -1,0 +1,10 @@
+/home/yuanyan/Robot/build/waypoint_example/CMakeFiles/uninstall.dir
+/home/yuanyan/Robot/build/waypoint_example/CMakeFiles/waypoint_example_uninstall.dir
+/home/yuanyan/Robot/build/waypoint_example/CMakeFiles/waypointExample.dir
+/home/yuanyan/Robot/build/waypoint_example/CMakeFiles/test.dir
+/home/yuanyan/Robot/build/waypoint_example/CMakeFiles/edit_cache.dir
+/home/yuanyan/Robot/build/waypoint_example/CMakeFiles/rebuild_cache.dir
+/home/yuanyan/Robot/build/waypoint_example/CMakeFiles/list_install_components.dir
+/home/yuanyan/Robot/build/waypoint_example/CMakeFiles/install.dir
+/home/yuanyan/Robot/build/waypoint_example/CMakeFiles/install/local.dir
+/home/yuanyan/Robot/build/waypoint_example/CMakeFiles/install/strip.dir

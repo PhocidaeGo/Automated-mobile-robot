@@ -1,0 +1,27 @@
+[  1%] Built target lio_sam__rosidl_generator_type_description
+[  1%] Built target ament_cmake_python_symlink_lio_sam
+[  3%] Built target lio_sam__cpp
+[ 19%] Built target lio_sam__rosidl_generator_c
+[ 26%] Built target lio_sam__rosidl_typesupport_c
+[ 50%] Built target lio_sam__rosidl_typesupport_introspection_c
+[ 50%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[ 50%] Built target lio_sam__rosidl_typesupport_cpp
+[ 57%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[ 65%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[ 65%] Built target lio_sam
+[ 69%] Built target lio_sam__py
+[ 69%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o[0m
+[ 80%] Built target lio_sam__rosidl_generator_py
+[ 84%] Built target lio_sam_s__rosidl_typesupport_fastrtps_c
+[ 88%] Built target lio_sam_s__rosidl_typesupport_c
+[ 92%] Built target lio_sam_s__rosidl_typesupport_introspection_c
+running egg_info
+writing lio_sam.egg-info/PKG-INFO
+writing dependency_links to lio_sam.egg-info/dependency_links.txt
+writing top-level names to lio_sam.egg-info/top_level.txt
+reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[ 92%] Built target ament_cmake_python_build_lio_sam_egg

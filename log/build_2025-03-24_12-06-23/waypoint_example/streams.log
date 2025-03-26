@@ -1,0 +1,139 @@
+[0.013s] Invoking command in '/home/yuanyan/Robot/build/waypoint_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/waypoint_example
+[0.050s] -- The C compiler identification is GNU 13.3.0
+[0.093s] -- The CXX compiler identification is GNU 13.3.0
+[0.105s] -- Detecting C compiler ABI info
+[0.170s] -- Detecting C compiler ABI info - done
+[0.182s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.182s] -- Detecting C compile features
+[0.182s] -- Detecting C compile features - done
+[0.189s] -- Detecting CXX compiler ABI info
+[0.259s] -- Detecting CXX compiler ABI info - done
+[0.265s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.265s] -- Detecting CXX compile features
+[0.266s] -- Detecting CXX compile features - done
+[0.268s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.377s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.430s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.457s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.489s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.499s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.511s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.524s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.580s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.582s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.634s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.648s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.664s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.718s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.728s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.759s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.776s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.872s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.883s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.884s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.884s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.887s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[0.933s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.933s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.934s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.934s]   cmake_policy command to set the policy and suppress this warning.
+[0.934s] 
+[0.934s]   CMake variable FLANN_ROOT is set to:
+[0.934s] 
+[0.934s]     /usr
+[0.934s] 
+[0.934s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.934s]   .cmake module might still use it.
+[0.934s] Call Stack (most recent call first):
+[0.934s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.934s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.934s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.934s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.934s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.934s]   CMakeLists.txt:28 (find_package)
+[0.934s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.934s] [0m
+[0.934s] -- Found flann version 1.9.2
+[1.147s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.148s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[2.223s] -- Checking for module 'libusb-1.0'
+[2.236s] --   Found libusb-1.0, version 1.0.27
+[2.263s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.264s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.307s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.310s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.321s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[2.334s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[2.694s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.699s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.139s] -- Found Qhull version 8.0.2
+[3.573s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.872s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.873s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.874s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.875s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.875s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.876s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.876s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[3.877s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[3.878s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.878s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.879s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.880s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.881s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.882s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.882s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.883s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.884s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.885s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.886s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.886s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.887s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[3.887s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[3.888s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[3.888s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.889s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.893s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[3.918s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.022s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.023s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.024s] -- Configured cppcheck include dirs: 
+[4.024s] -- Configured cppcheck exclude dirs and/or files: 
+[4.025s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.025s] -- Configured cpplint exclude dirs and/or files: 
+[4.026s] -- Added test 'lint_cmake' to check CMake code style
+[4.027s] -- Added test 'uncrustify' to check C / C++ code style
+[4.028s] -- Configured uncrustify additional arguments: 
+[4.028s] -- Added test 'xmllint' to check XML markup files
+[4.031s] -- Configuring done (4.0s)
+[4.085s] -- Generating done (0.0s)
+[4.091s] -- Build files have been written to: /home/yuanyan/Robot/build/waypoint_example
+[4.108s] Invoked command in '/home/yuanyan/Robot/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/waypoint_example
+[4.109s] Invoking command in '/home/yuanyan/Robot/build/waypoint_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/waypoint_example -- -j16 -l16
+[4.163s] [ 50%] [32mBuilding CXX object CMakeFiles/waypointExample.dir/src/waypointExample.cpp.o[0m
+[18.943s] [100%] [32m[1mLinking CXX executable waypointExample[0m
+[19.691s] [100%] Built target waypointExample
+[19.699s] Invoked command in '/home/yuanyan/Robot/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/waypoint_example -- -j16 -l16
+[19.700s] Invoking command in '/home/yuanyan/Robot/build/waypoint_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/waypoint_example
+[19.706s] -- Install configuration: ""
+[19.706s] -- Execute custom install script
+[19.707s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/lib/waypoint_example/waypointExample
+[19.716s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/launch/waypoint_example_garage.launch
+[19.722s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/data/boundary_garage.ply
+[19.728s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/data/waypoints_garage.ply
+[19.734s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/ament_index/resource_index/package_run_dependencies/waypoint_example
+[19.740s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/ament_index/resource_index/parent_prefix_path/waypoint_example
+[19.749s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/environment/ament_prefix_path.sh
+[19.757s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/environment/ament_prefix_path.dsv
+[19.764s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/environment/path.sh
+[19.770s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/environment/path.dsv
+[19.779s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/local_setup.bash
+[19.788s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/local_setup.sh
+[19.794s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/local_setup.zsh
+[19.804s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/local_setup.dsv
+[19.810s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.dsv
+[19.817s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/ament_index/resource_index/packages/waypoint_example
+[19.826s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/cmake/waypoint_exampleConfig.cmake
+[19.834s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/cmake/waypoint_exampleConfig-version.cmake
+[19.841s] -- Symlinking: /home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.xml
+[19.850s] Invoked command in '/home/yuanyan/Robot/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/waypoint_example

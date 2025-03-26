@@ -1,0 +1,720 @@
+[0.056s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.057s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7e8f52c63a70>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7e8f52c63710>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7e8f52c63710>>, mixin_verb=('build',))
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.078s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.078s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/yuanyan/Robot'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.078s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.093s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['ros']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'ros'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['cmake', 'python']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'cmake'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'python'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extensions ['python_setup_py']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment) by extension 'python_setup_py'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['ignore', 'ignore_ament_install']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'ignore'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'ignore_ament_install'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['colcon_pkg']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'colcon_pkg'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['colcon_meta']
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'colcon_meta'
+[0.094s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'ros'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['cmake', 'python']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'cmake'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'python'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extensions ['python_setup_py']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/img) by extension 'python_setup_py'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'ros'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['cmake', 'python']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'cmake'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'python'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extensions ['python_setup_py']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src) by extension 'python_setup_py'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extension 'ignore'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extension 'ignore_ament_install'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extensions ['colcon_pkg']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extension 'colcon_pkg'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extensions ['colcon_meta']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extension 'colcon_meta'
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extensions ['ros']
+[0.095s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/loam_interface) by extension 'ros'
+[0.097s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/loam_interface' with type 'ros.ament_cmake' and name 'loam_interface'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extensions ['ignore', 'ignore_ament_install']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extension 'ignore'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extension 'ignore_ament_install'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extensions ['colcon_pkg']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extension 'colcon_pkg'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extensions ['colcon_meta']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extension 'colcon_meta'
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extensions ['ros']
+[0.097s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/local_planner) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/local_planner' with type 'ros.ament_cmake' and name 'local_planner'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extensions ['colcon_meta']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extension 'colcon_meta'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extensions ['ros']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/sensor_scan_generation) by extension 'ros'
+[0.098s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/sensor_scan_generation' with type 'ros.ament_cmake' and name 'sensor_scan_generation'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extensions ['ignore', 'ignore_ament_install']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extension 'ignore'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extension 'ignore_ament_install'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extensions ['colcon_pkg']
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extension 'colcon_pkg'
+[0.098s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis) by extension 'ros'
+[0.099s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/terrain_analysis' with type 'ros.ament_cmake' and name 'terrain_analysis'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extensions ['ignore', 'ignore_ament_install']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extension 'ignore'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extension 'ignore_ament_install'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extensions ['colcon_pkg']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extension 'colcon_pkg'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extensions ['colcon_meta']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extension 'colcon_meta'
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extensions ['ros']
+[0.099s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/terrain_analysis_ext) by extension 'ros'
+[0.100s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/terrain_analysis_ext' with type 'ros.ament_cmake' and name 'terrain_analysis_ext'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extension 'ignore'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extension 'ignore_ament_install'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extensions ['colcon_pkg']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extension 'colcon_pkg'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extensions ['colcon_meta']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extension 'colcon_meta'
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extensions ['ros']
+[0.100s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/vehicle_simulator) by extension 'ros'
+[0.101s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/vehicle_simulator' with type 'ros.ament_cmake' and name 'vehicle_simulator'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extension 'ignore'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extension 'ignore_ament_install'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extensions ['colcon_pkg']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extension 'colcon_pkg'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extensions ['colcon_meta']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extension 'colcon_meta'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extensions ['ros']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/visualization_tools) by extension 'ros'
+[0.101s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/visualization_tools' with type 'ros.ament_cmake' and name 'visualization_tools'
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extensions ['ignore', 'ignore_ament_install']
+[0.101s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_example) by extension 'ros'
+[0.102s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/waypoint_example' with type 'ros.ament_cmake' and name 'waypoint_example'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extensions ['ignore', 'ignore_ament_install']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extension 'ignore'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extension 'ignore_ament_install'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extensions ['colcon_pkg']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extension 'colcon_pkg'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extensions ['colcon_meta']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extension 'colcon_meta'
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extensions ['ros']
+[0.102s] Level 1:colcon.colcon_core.package_identification:_identify(src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin) by extension 'ros'
+[0.103s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin' with type 'ros.ament_cmake' and name 'waypoint_rviz_plugin'
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.114s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.116s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 321 installed packages in /opt/ros/jazzy
+[0.116s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_target' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'loam_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.137s] DEBUG:colcon.colcon_core.verb:Building package 'loam_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuanyan/Robot/build/loam_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuanyan/Robot/install/loam_interface', 'merge_install': False, 'path': '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/loam_interface', 'symlink_install': True, 'test_result_base': None}
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_target' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_clean_cache' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_clean_first' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'cmake_force_configure' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'ament_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'catkin_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'local_planner' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.137s] DEBUG:colcon.colcon_core.verb:Building package 'local_planner' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuanyan/Robot/build/local_planner', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuanyan/Robot/install/local_planner', 'merge_install': False, 'path': '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/local_planner', 'symlink_install': True, 'test_result_base': None}
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_target' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_clean_first' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'cmake_force_configure' from command line to 'False'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'ament_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.137s] Level 5:colcon.colcon_core.verb:set package 'sensor_scan_generation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.137s] DEBUG:colcon.colcon_core.verb:Building package 'sensor_scan_generation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuanyan/Robot/build/sensor_scan_generation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuanyan/Robot/install/sensor_scan_generation', 'merge_install': False, 'path': '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/sensor_scan_generation', 'symlink_install': True, 'test_result_base': None}
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_target' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_clean_cache' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_clean_first' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'cmake_force_configure' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'ament_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'catkin_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.138s] DEBUG:colcon.colcon_core.verb:Building package 'terrain_analysis' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuanyan/Robot/build/terrain_analysis', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuanyan/Robot/install/terrain_analysis', 'merge_install': False, 'path': '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis', 'symlink_install': True, 'test_result_base': None}
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_target' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_clean_cache' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_clean_first' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'cmake_force_configure' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'ament_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'catkin_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'terrain_analysis_ext' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.138s] DEBUG:colcon.colcon_core.verb:Building package 'terrain_analysis_ext' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuanyan/Robot/build/terrain_analysis_ext', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuanyan/Robot/install/terrain_analysis_ext', 'merge_install': False, 'path': '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis_ext', 'symlink_install': True, 'test_result_base': None}
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_target' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'vehicle_simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.138s] DEBUG:colcon.colcon_core.verb:Building package 'vehicle_simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuanyan/Robot/build/vehicle_simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuanyan/Robot/install/vehicle_simulator', 'merge_install': False, 'path': '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/vehicle_simulator', 'symlink_install': True, 'test_result_base': None}
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_target' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'visualization_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.138s] DEBUG:colcon.colcon_core.verb:Building package 'visualization_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuanyan/Robot/build/visualization_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuanyan/Robot/install/visualization_tools', 'merge_install': False, 'path': '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/visualization_tools', 'symlink_install': True, 'test_result_base': None}
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_target' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_clean_cache' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_clean_first' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'cmake_force_configure' from command line to 'False'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'ament_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'catkin_cmake_args' from command line to 'None'
+[0.138s] Level 5:colcon.colcon_core.verb:set package 'waypoint_example' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.138s] DEBUG:colcon.colcon_core.verb:Building package 'waypoint_example' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuanyan/Robot/build/waypoint_example', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuanyan/Robot/install/waypoint_example', 'merge_install': False, 'path': '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_example', 'symlink_install': True, 'test_result_base': None}
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_args' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_target' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_clean_cache' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_clean_first' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'cmake_force_configure' from command line to 'False'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'ament_cmake_args' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'catkin_cmake_args' from command line to 'None'
+[0.139s] Level 5:colcon.colcon_core.verb:set package 'waypoint_rviz_plugin' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.139s] DEBUG:colcon.colcon_core.verb:Building package 'waypoint_rviz_plugin' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/yuanyan/Robot/build/waypoint_rviz_plugin', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/yuanyan/Robot/install/waypoint_rviz_plugin', 'merge_install': False, 'path': '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin', 'symlink_install': True, 'test_result_base': None}
+[0.139s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.140s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.140s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/loam_interface' with build type 'ament_cmake'
+[0.140s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/loam_interface'
+[0.141s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.141s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.141s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.143s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/local_planner' with build type 'ament_cmake'
+[0.143s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/local_planner'
+[0.143s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.143s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.145s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/sensor_scan_generation' with build type 'ament_cmake'
+[0.145s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/sensor_scan_generation'
+[0.145s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.145s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.146s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis' with build type 'ament_cmake'
+[0.146s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis'
+[0.146s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.146s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.148s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis_ext' with build type 'ament_cmake'
+[0.148s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis_ext'
+[0.148s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.148s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.150s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/vehicle_simulator' with build type 'ament_cmake'
+[0.150s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/vehicle_simulator'
+[0.150s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.150s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.151s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/visualization_tools' with build type 'ament_cmake'
+[0.151s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/visualization_tools'
+[0.151s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.151s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.153s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_example' with build type 'ament_cmake'
+[0.153s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_example'
+[0.153s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.153s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.154s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin' with build type 'ament_cmake'
+[0.154s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin'
+[0.155s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.155s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.159s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/loam_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/loam_interface
+[0.160s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/local_planner
+[0.161s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/sensor_scan_generation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/sensor_scan_generation
+[0.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/terrain_analysis
+[0.162s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/terrain_analysis_ext
+[0.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/vehicle_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/vehicle_simulator
+[0.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/visualization_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/visualization_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/visualization_tools
+[0.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/waypoint_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/waypoint_example
+[0.171s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/waypoint_rviz_plugin
+[1.939s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_rviz_plugin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/waypoint_rviz_plugin
+[1.941s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/waypoint_rviz_plugin -- -j16 -l16
+[4.097s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/loam_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/loam_interface
+[4.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/loam_interface -- -j16 -l16
+[4.229s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/sensor_scan_generation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/sensor_scan_generation
+[4.231s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/sensor_scan_generation -- -j16 -l16
+[4.261s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/waypoint_example -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/waypoint_example
+[4.262s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/waypoint_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/waypoint_example -- -j16 -l16
+[4.370s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis_ext -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/terrain_analysis_ext
+[4.371s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/terrain_analysis_ext -- -j16 -l16
+[4.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/terrain_analysis -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/terrain_analysis
+[4.387s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/terrain_analysis -- -j16 -l16
+[4.442s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/local_planner -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/local_planner
+[4.443s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/local_planner -- -j16 -l16
+[4.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/vehicle_simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/vehicle_simulator
+[4.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/vehicle_simulator -- -j16 -l16
+[4.727s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/visualization_tools -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/visualization_tools
+[4.728s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/visualization_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/visualization_tools -- -j16 -l16
+[10.445s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/waypoint_rviz_plugin -- -j16 -l16
+[10.456s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/waypoint_rviz_plugin
+[10.631s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_rviz_plugin)
+[10.631s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/waypoint_rviz_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/waypoint_rviz_plugin
+[10.633s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin' for CMake module files
+[10.633s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin' for CMake config files
+[10.633s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_rviz_plugin', 'cmake_prefix_path')
+[10.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.ps1'
+[10.634s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.dsv'
+[10.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.sh'
+[10.635s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin/lib'
+[10.635s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin/bin'
+[10.635s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin/lib/pkgconfig/waypoint_rviz_plugin.pc'
+[10.635s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin/lib/python3.12/site-packages'
+[10.635s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin/bin'
+[10.635s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.ps1'
+[10.636s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.dsv'
+[10.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.sh'
+[10.636s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.bash'
+[10.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.zsh'
+[10.637s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/colcon-core/packages/waypoint_rviz_plugin)
+[10.638s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_rviz_plugin)
+[10.638s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin' for CMake module files
+[10.638s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin' for CMake config files
+[10.638s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_rviz_plugin', 'cmake_prefix_path')
+[10.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.ps1'
+[10.639s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.dsv'
+[10.639s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/hook/cmake_prefix_path.sh'
+[10.639s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin/lib'
+[10.639s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin/bin'
+[10.640s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin/lib/pkgconfig/waypoint_rviz_plugin.pc'
+[10.640s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin/lib/python3.12/site-packages'
+[10.640s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_rviz_plugin/bin'
+[10.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.ps1'
+[10.640s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.dsv'
+[10.640s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.sh'
+[10.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.bash'
+[10.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/waypoint_rviz_plugin/package.zsh'
+[10.641s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/waypoint_rviz_plugin/share/colcon-core/packages/waypoint_rviz_plugin)
+[16.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/loam_interface -- -j16 -l16
+[16.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/loam_interface
+[16.294s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(loam_interface)
+[16.294s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface' for CMake module files
+[16.295s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/loam_interface
+[16.295s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface' for CMake config files
+[16.295s] Level 1:colcon.colcon_core.shell:create_environment_hook('loam_interface', 'cmake_prefix_path')
+[16.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.ps1'
+[16.296s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.dsv'
+[16.296s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.sh'
+[16.297s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface/lib'
+[16.297s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface/bin'
+[16.297s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface/lib/pkgconfig/loam_interface.pc'
+[16.298s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface/lib/python3.12/site-packages'
+[16.298s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface/bin'
+[16.298s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.ps1'
+[16.299s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.dsv'
+[16.299s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.sh'
+[16.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.bash'
+[16.300s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.zsh'
+[16.300s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/loam_interface/share/colcon-core/packages/loam_interface)
+[16.301s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(loam_interface)
+[16.301s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface' for CMake module files
+[16.302s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface' for CMake config files
+[16.302s] Level 1:colcon.colcon_core.shell:create_environment_hook('loam_interface', 'cmake_prefix_path')
+[16.302s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.ps1'
+[16.303s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.dsv'
+[16.303s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/hook/cmake_prefix_path.sh'
+[16.304s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface/lib'
+[16.304s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface/bin'
+[16.304s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface/lib/pkgconfig/loam_interface.pc'
+[16.304s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface/lib/python3.12/site-packages'
+[16.305s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/loam_interface/bin'
+[16.305s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.ps1'
+[16.305s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.dsv'
+[16.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.sh'
+[16.306s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.bash'
+[16.307s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.zsh'
+[16.307s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/loam_interface/share/colcon-core/packages/loam_interface)
+[17.213s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/sensor_scan_generation -- -j16 -l16
+[17.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/sensor_scan_generation
+[17.357s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_scan_generation)
+[17.357s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation' for CMake module files
+[17.358s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/sensor_scan_generation
+[17.358s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation' for CMake config files
+[17.358s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_scan_generation', 'cmake_prefix_path')
+[17.358s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.ps1'
+[17.359s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.dsv'
+[17.359s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.sh'
+[17.359s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation/lib'
+[17.359s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation/bin'
+[17.359s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation/lib/pkgconfig/sensor_scan_generation.pc'
+[17.359s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation/lib/python3.12/site-packages'
+[17.359s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation/bin'
+[17.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.ps1'
+[17.360s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv'
+[17.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.sh'
+[17.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.bash'
+[17.360s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.zsh'
+[17.361s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/sensor_scan_generation/share/colcon-core/packages/sensor_scan_generation)
+[17.361s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sensor_scan_generation)
+[17.361s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation' for CMake module files
+[17.361s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation' for CMake config files
+[17.361s] Level 1:colcon.colcon_core.shell:create_environment_hook('sensor_scan_generation', 'cmake_prefix_path')
+[17.361s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.ps1'
+[17.362s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.dsv'
+[17.362s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/hook/cmake_prefix_path.sh'
+[17.362s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation/lib'
+[17.362s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation/bin'
+[17.362s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation/lib/pkgconfig/sensor_scan_generation.pc'
+[17.362s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation/lib/python3.12/site-packages'
+[17.362s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/sensor_scan_generation/bin'
+[17.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.ps1'
+[17.363s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv'
+[17.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.sh'
+[17.363s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.bash'
+[17.364s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.zsh'
+[17.364s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/sensor_scan_generation/share/colcon-core/packages/sensor_scan_generation)
+[19.749s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/terrain_analysis -- -j16 -l16
+[19.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/terrain_analysis': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/terrain_analysis
+[19.841s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/terrain_analysis_ext -- -j16 -l16
+[19.842s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/terrain_analysis_ext': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/terrain_analysis_ext
+[19.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/waypoint_example -- -j16 -l16
+[19.854s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/waypoint_example': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/waypoint_example
+[19.887s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_analysis)
+[19.887s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis' for CMake module files
+[19.888s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/terrain_analysis' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/terrain_analysis
+[19.888s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis' for CMake config files
+[19.888s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis', 'cmake_prefix_path')
+[19.888s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.ps1'
+[19.888s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.dsv'
+[19.889s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.sh'
+[19.889s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis/lib'
+[19.889s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis/bin'
+[19.889s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis/lib/pkgconfig/terrain_analysis.pc'
+[19.889s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis/lib/python3.12/site-packages'
+[19.889s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis/bin'
+[19.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.ps1'
+[19.890s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.dsv'
+[19.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.sh'
+[19.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.bash'
+[19.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.zsh'
+[19.891s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/terrain_analysis/share/colcon-core/packages/terrain_analysis)
+[19.891s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_analysis)
+[19.891s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis' for CMake module files
+[19.891s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis' for CMake config files
+[19.891s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis', 'cmake_prefix_path')
+[19.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.ps1'
+[19.892s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.dsv'
+[19.892s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/hook/cmake_prefix_path.sh'
+[19.893s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis/lib'
+[19.893s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis/bin'
+[19.893s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis/lib/pkgconfig/terrain_analysis.pc'
+[19.893s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis/lib/python3.12/site-packages'
+[19.893s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis/bin'
+[19.893s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.ps1'
+[19.894s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.dsv'
+[19.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.sh'
+[19.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.bash'
+[19.894s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis/share/terrain_analysis/package.zsh'
+[19.895s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/terrain_analysis/share/colcon-core/packages/terrain_analysis)
+[19.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_analysis_ext)
+[19.973s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext' for CMake module files
+[19.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/terrain_analysis_ext' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/terrain_analysis_ext
+[19.973s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext' for CMake config files
+[19.974s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis_ext', 'cmake_prefix_path')
+[19.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.ps1'
+[19.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.dsv'
+[19.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.sh'
+[19.975s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext/lib'
+[19.975s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext/bin'
+[19.975s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext/lib/pkgconfig/terrain_analysis_ext.pc'
+[19.975s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext/lib/python3.12/site-packages'
+[19.975s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext/bin'
+[19.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/package.ps1'
+[19.976s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/package.dsv'
+[19.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/package.sh'
+[19.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/package.bash'
+[19.976s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/package.zsh'
+[19.976s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/terrain_analysis_ext/share/colcon-core/packages/terrain_analysis_ext)
+[19.977s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(terrain_analysis_ext)
+[19.977s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext' for CMake module files
+[19.977s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext' for CMake config files
+[19.977s] Level 1:colcon.colcon_core.shell:create_environment_hook('terrain_analysis_ext', 'cmake_prefix_path')
+[19.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.ps1'
+[19.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.dsv'
+[19.978s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/hook/cmake_prefix_path.sh'
+[19.978s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext/lib'
+[19.978s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext/bin'
+[19.978s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext/lib/pkgconfig/terrain_analysis_ext.pc'
+[19.978s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext/lib/python3.12/site-packages'
+[19.978s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/terrain_analysis_ext/bin'
+[19.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/package.ps1'
+[19.979s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/package.dsv'
+[19.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/package.sh'
+[19.979s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/package.bash'
+[19.980s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/terrain_analysis_ext/share/terrain_analysis_ext/package.zsh'
+[19.980s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/terrain_analysis_ext/share/colcon-core/packages/terrain_analysis_ext)
+[20.003s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_example)
+[20.003s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example' for CMake module files
+[20.003s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/waypoint_example' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/waypoint_example
+[20.003s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example' for CMake config files
+[20.003s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_example', 'cmake_prefix_path')
+[20.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.ps1'
+[20.004s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.dsv'
+[20.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.sh'
+[20.004s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example/lib'
+[20.004s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example/bin'
+[20.004s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example/lib/pkgconfig/waypoint_example.pc'
+[20.005s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example/lib/python3.12/site-packages'
+[20.005s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example/bin'
+[20.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.ps1'
+[20.005s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.dsv'
+[20.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.sh'
+[20.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.bash'
+[20.006s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.zsh'
+[20.006s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/waypoint_example/share/colcon-core/packages/waypoint_example)
+[20.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(waypoint_example)
+[20.006s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example' for CMake module files
+[20.006s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example' for CMake config files
+[20.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('waypoint_example', 'cmake_prefix_path')
+[20.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.ps1'
+[20.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.dsv'
+[20.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/hook/cmake_prefix_path.sh'
+[20.007s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example/lib'
+[20.007s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example/bin'
+[20.008s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example/lib/pkgconfig/waypoint_example.pc'
+[20.008s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example/lib/python3.12/site-packages'
+[20.008s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/waypoint_example/bin'
+[20.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.ps1'
+[20.008s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.dsv'
+[20.008s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.sh'
+[20.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.bash'
+[20.009s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/waypoint_example/share/waypoint_example/package.zsh'
+[20.009s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/waypoint_example/share/colcon-core/packages/waypoint_example)
+[23.505s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/visualization_tools -- -j16 -l16
+[23.506s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/visualization_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/visualization_tools
+[23.743s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_tools)
+[23.743s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools' for CMake module files
+[23.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/visualization_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/visualization_tools
+[23.744s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools' for CMake config files
+[23.744s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_tools', 'cmake_prefix_path')
+[23.744s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.ps1'
+[23.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.dsv'
+[23.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.sh'
+[23.745s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools/lib'
+[23.745s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools/bin'
+[23.745s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools/lib/pkgconfig/visualization_tools.pc'
+[23.745s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools/lib/python3.12/site-packages'
+[23.746s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_tools', 'pythonpath')
+[23.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/pythonpath.ps1'
+[23.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/pythonpath.dsv'
+[23.746s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/pythonpath.sh'
+[23.746s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools/bin'
+[23.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.ps1'
+[23.747s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.dsv'
+[23.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.sh'
+[23.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.bash'
+[23.747s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.zsh'
+[23.748s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/visualization_tools/share/colcon-core/packages/visualization_tools)
+[23.748s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(visualization_tools)
+[23.748s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools' for CMake module files
+[23.748s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools' for CMake config files
+[23.749s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_tools', 'cmake_prefix_path')
+[23.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.ps1'
+[23.749s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.dsv'
+[23.749s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/cmake_prefix_path.sh'
+[23.750s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools/lib'
+[23.750s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools/bin'
+[23.750s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools/lib/pkgconfig/visualization_tools.pc'
+[23.750s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools/lib/python3.12/site-packages'
+[23.750s] Level 1:colcon.colcon_core.shell:create_environment_hook('visualization_tools', 'pythonpath')
+[23.750s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/pythonpath.ps1'
+[23.750s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/pythonpath.dsv'
+[23.751s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/hook/pythonpath.sh'
+[23.751s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/visualization_tools/bin'
+[23.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.ps1'
+[23.751s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.dsv'
+[23.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.sh'
+[23.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.bash'
+[23.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/visualization_tools/share/visualization_tools/package.zsh'
+[23.752s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/visualization_tools/share/colcon-core/packages/visualization_tools)
+[24.804s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/local_planner -- -j16 -l16
+[24.805s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/local_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/local_planner
+[24.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/vehicle_simulator -- -j16 -l16
+[24.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/yuanyan/Robot/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/vehicle_simulator
+[24.972s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(local_planner)
+[24.973s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner' for CMake module files
+[24.973s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/local_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/local_planner
+[24.973s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner' for CMake config files
+[24.973s] Level 1:colcon.colcon_core.shell:create_environment_hook('local_planner', 'cmake_prefix_path')
+[24.973s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/local_planner/share/local_planner/hook/cmake_prefix_path.ps1'
+[24.974s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/local_planner/share/local_planner/hook/cmake_prefix_path.dsv'
+[24.974s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/local_planner/share/local_planner/hook/cmake_prefix_path.sh'
+[24.974s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner/lib'
+[24.974s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner/bin'
+[24.974s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner/lib/pkgconfig/local_planner.pc'
+[24.974s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner/lib/python3.12/site-packages'
+[24.974s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner/bin'
+[24.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/local_planner/share/local_planner/package.ps1'
+[24.975s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/local_planner/share/local_planner/package.dsv'
+[24.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/local_planner/share/local_planner/package.sh'
+[24.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/local_planner/share/local_planner/package.bash'
+[24.975s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/local_planner/share/local_planner/package.zsh'
+[24.975s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/local_planner/share/colcon-core/packages/local_planner)
+[24.976s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(local_planner)
+[24.976s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner' for CMake module files
+[24.976s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner' for CMake config files
+[24.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('local_planner', 'cmake_prefix_path')
+[24.976s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/local_planner/share/local_planner/hook/cmake_prefix_path.ps1'
+[24.977s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/local_planner/share/local_planner/hook/cmake_prefix_path.dsv'
+[24.977s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/local_planner/share/local_planner/hook/cmake_prefix_path.sh'
+[24.977s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner/lib'
+[24.977s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner/bin'
+[24.977s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner/lib/pkgconfig/local_planner.pc'
+[24.977s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner/lib/python3.12/site-packages'
+[24.977s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/local_planner/bin'
+[24.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/local_planner/share/local_planner/package.ps1'
+[24.978s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/local_planner/share/local_planner/package.dsv'
+[24.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/local_planner/share/local_planner/package.sh'
+[24.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/local_planner/share/local_planner/package.bash'
+[24.978s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/local_planner/share/local_planner/package.zsh'
+[24.979s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/local_planner/share/colcon-core/packages/local_planner)
+[25.142s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_simulator)
+[25.142s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator' for CMake module files
+[25.143s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/yuanyan/Robot/build/vehicle_simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/vehicle_simulator
+[25.143s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator' for CMake config files
+[25.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_simulator', 'cmake_prefix_path')
+[25.143s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.ps1'
+[25.143s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.dsv'
+[25.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.sh'
+[25.144s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator/lib'
+[25.144s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator/bin'
+[25.144s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator/lib/pkgconfig/vehicle_simulator.pc'
+[25.144s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator/lib/python3.12/site-packages'
+[25.144s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator/bin'
+[25.144s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.ps1'
+[25.144s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.dsv'
+[25.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.sh'
+[25.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.bash'
+[25.145s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.zsh'
+[25.145s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/vehicle_simulator/share/colcon-core/packages/vehicle_simulator)
+[25.145s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(vehicle_simulator)
+[25.145s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator' for CMake module files
+[25.146s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator' for CMake config files
+[25.146s] Level 1:colcon.colcon_core.shell:create_environment_hook('vehicle_simulator', 'cmake_prefix_path')
+[25.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.ps1'
+[25.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.dsv'
+[25.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/hook/cmake_prefix_path.sh'
+[25.146s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator/lib'
+[25.147s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator/bin'
+[25.147s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator/lib/pkgconfig/vehicle_simulator.pc'
+[25.147s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator/lib/python3.12/site-packages'
+[25.147s] Level 1:colcon.colcon_core.environment:checking '/home/yuanyan/Robot/install/vehicle_simulator/bin'
+[25.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.ps1'
+[25.147s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.dsv'
+[25.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.sh'
+[25.147s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.bash'
+[25.148s] INFO:colcon.colcon_core.shell:Creating package script '/home/yuanyan/Robot/install/vehicle_simulator/share/vehicle_simulator/package.zsh'
+[25.148s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/yuanyan/Robot/install/vehicle_simulator/share/colcon-core/packages/vehicle_simulator)
+[25.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[25.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[25.148s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[25.148s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[25.152s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[25.152s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[25.152s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[25.164s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[25.164s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuanyan/Robot/install/local_setup.ps1'
+[25.164s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuanyan/Robot/install/_local_setup_util_ps1.py'
+[25.165s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuanyan/Robot/install/setup.ps1'
+[25.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuanyan/Robot/install/local_setup.sh'
+[25.166s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/yuanyan/Robot/install/_local_setup_util_sh.py'
+[25.166s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuanyan/Robot/install/setup.sh'
+[25.166s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuanyan/Robot/install/local_setup.bash'
+[25.167s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuanyan/Robot/install/setup.bash'
+[25.167s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/yuanyan/Robot/install/local_setup.zsh'
+[25.167s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/yuanyan/Robot/install/setup.zsh'

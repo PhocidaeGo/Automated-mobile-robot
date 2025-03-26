@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtare_visualizer.a CMakeFiles/tare_visualizer.dir/src/tare_visualizer/tare_visualizer.cpp.o
+/usr/bin/ranlib libtare_visualizer.a

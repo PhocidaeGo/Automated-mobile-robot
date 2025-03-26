@@ -1,0 +1,137 @@
+[0.016s] Invoking command in '/home/yuanyan/Robot/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/sensor_scan_generation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/sensor_scan_generation
+[0.055s] -- The C compiler identification is GNU 13.3.0
+[0.097s] -- The CXX compiler identification is GNU 13.3.0
+[0.110s] -- Detecting C compiler ABI info
+[0.184s] -- Detecting C compiler ABI info - done
+[0.193s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.193s] -- Detecting C compile features
+[0.193s] -- Detecting C compile features - done
+[0.200s] -- Detecting CXX compiler ABI info
+[0.268s] -- Detecting CXX compiler ABI info - done
+[0.274s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.274s] -- Detecting CXX compile features
+[0.275s] -- Detecting CXX compile features - done
+[0.277s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.379s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.432s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.460s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.492s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.502s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.514s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.527s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.583s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.585s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.638s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.652s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.668s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.722s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.732s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.762s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.780s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.876s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.887s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.888s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.888s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.891s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[0.937s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.937s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.937s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.937s]   cmake_policy command to set the policy and suppress this warning.
+[0.937s] 
+[0.937s]   CMake variable FLANN_ROOT is set to:
+[0.937s] 
+[0.937s]     /usr
+[0.937s] 
+[0.938s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.938s]   .cmake module might still use it.
+[0.938s] Call Stack (most recent call first):
+[0.938s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.938s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.938s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.938s]   /opt/ros/jazzy/share/pcl_conversions/cmake/ament_cmake_export_dependencies-extras.cmake:21 (find_package)
+[0.938s]   /opt/ros/jazzy/share/pcl_conversions/cmake/pcl_conversionsConfig.cmake:41 (include)
+[0.938s]   CMakeLists.txt:28 (find_package)
+[0.938s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.938s] [0m
+[0.938s] -- Found flann version 1.9.2
+[1.157s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.157s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[2.228s] -- Checking for module 'libusb-1.0'
+[2.239s] --   Found libusb-1.0, version 1.0.27
+[2.268s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.268s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.322s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.324s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.334s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[2.347s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[2.755s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.761s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[3.154s] -- Found Qhull version 8.0.2
+[3.450s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.880s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.881s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.882s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.882s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.883s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.884s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.884s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[3.884s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[3.885s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.886s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.887s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.888s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.889s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.891s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.892s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.893s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.895s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.897s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.898s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.900s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.901s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[3.901s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[3.902s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[3.903s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.905s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.911s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[3.939s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.025s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.026s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.026s] -- Configured cppcheck include dirs: 
+[4.026s] -- Configured cppcheck exclude dirs and/or files: 
+[4.027s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.027s] -- Configured cpplint exclude dirs and/or files: 
+[4.027s] -- Added test 'lint_cmake' to check CMake code style
+[4.028s] -- Added test 'uncrustify' to check C / C++ code style
+[4.028s] -- Configured uncrustify additional arguments: 
+[4.028s] -- Added test 'xmllint' to check XML markup files
+[4.030s] -- Configuring done (4.0s)
+[4.063s] -- Generating done (0.0s)
+[4.068s] -- Build files have been written to: /home/yuanyan/Robot/build/sensor_scan_generation
+[4.085s] Invoked command in '/home/yuanyan/Robot/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/sensor_scan_generation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/sensor_scan_generation
+[4.086s] Invoking command in '/home/yuanyan/Robot/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/sensor_scan_generation -- -j16 -l16
+[4.137s] [ 50%] [32mBuilding CXX object CMakeFiles/sensorScanGeneration.dir/src/sensorScanGeneration.cpp.o[0m
+[16.245s] [100%] [32m[1mLinking CXX executable sensorScanGeneration[0m
+[17.057s] [100%] Built target sensorScanGeneration
+[17.068s] Invoked command in '/home/yuanyan/Robot/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/sensor_scan_generation -- -j16 -l16
+[17.070s] Invoking command in '/home/yuanyan/Robot/build/sensor_scan_generation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/sensor_scan_generation
+[17.079s] -- Install configuration: ""
+[17.080s] -- Execute custom install script
+[17.080s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/lib/sensor_scan_generation/sensorScanGeneration
+[17.088s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/launch/sensor_scan_generation.launch
+[17.095s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/ament_index/resource_index/package_run_dependencies/sensor_scan_generation
+[17.102s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/ament_index/resource_index/parent_prefix_path/sensor_scan_generation
+[17.113s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.sh
+[17.123s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/environment/ament_prefix_path.dsv
+[17.133s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.sh
+[17.144s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/environment/path.dsv
+[17.150s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.bash
+[17.157s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.sh
+[17.166s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.zsh
+[17.172s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/local_setup.dsv
+[17.179s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.dsv
+[17.185s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/ament_index/resource_index/packages/sensor_scan_generation
+[17.192s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig.cmake
+[17.198s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/cmake/sensor_scan_generationConfig-version.cmake
+[17.205s] -- Symlinking: /home/yuanyan/Robot/install/sensor_scan_generation/share/sensor_scan_generation/package.xml
+[17.213s] Invoked command in '/home/yuanyan/Robot/build/sensor_scan_generation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/sensor_scan_generation

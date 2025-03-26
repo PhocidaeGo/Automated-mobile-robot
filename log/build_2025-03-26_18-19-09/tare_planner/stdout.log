@@ -1,0 +1,245 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+-- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+-- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+-- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+-- Found flann version 1.9.2
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1") found components: C 
+-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+-- Found X11: /usr/include   
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for connect
+-- Looking for connect - found
+-- Looking for remove
+-- Looking for remove - found
+-- Looking for shmat
+-- Looking for shmat - found
+-- Looking for IceConnectionNumber in ICE
+-- Looking for IceConnectionNumber in ICE - found
+-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+-- Found utf8cpp: /usr/include/utf8cpp  
+-- Checking for module 'libusb-1.0'
+--   Found libusb-1.0, version 1.0.27
+-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+-- Found Qhull version 8.0.2
+-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+-- looking for PCL_COMMON
+-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+-- looking for PCL_KDTREE
+-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+-- looking for PCL_OCTREE
+-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+-- looking for PCL_SEARCH
+-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+-- looking for PCL_SAMPLE_CONSENSUS
+-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+-- looking for PCL_FILTERS
+-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+-- looking for PCL_2D
+-- Found PCL_2D: /usr/include/pcl-1.14  
+-- looking for PCL_GEOMETRY
+-- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+-- looking for PCL_IO
+-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+-- looking for PCL_FEATURES
+-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+-- looking for PCL_ML
+-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+-- looking for PCL_SEGMENTATION
+-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+-- looking for PCL_VISUALIZATION
+-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+-- looking for PCL_SURFACE
+-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+-- looking for PCL_REGISTRATION
+-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+-- looking for PCL_KEYPOINTS
+-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+-- looking for PCL_TRACKING
+-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+-- looking for PCL_RECOGNITION
+-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+-- looking for PCL_STEREO
+-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+-- looking for PCL_APPS
+-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+-- looking for PCL_IN_HAND_SCANNER
+-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+-- looking for PCL_MODELER
+-- Found PCL_MODELER: /usr/include/pcl-1.14  
+-- looking for PCL_POINT_CLOUD_EDITOR
+-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+-- looking for PCL_OUTOFCORE
+-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+-- looking for PCL_PEOPLE
+-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+-- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+-- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- dir='/usr/include/eigen3'
+-- dir='/usr/include/eigen3'
+-- dir='/usr/include/pcl-1.14'
+-- dir='/usr/include/eigen3'
+-- dir='/usr/include'
+-- dir='/usr/include/ni'
+-- dir='/usr/include/openni2'
+-- dir='/home/yuanyan/Robot/src/tare_planner/src/tare_planner/include'
+-- dir='/home/yuanyan/Robot/src/tare_planner/src/tare_planner/or-tools/include'
+-- dir='/usr/include/eigen3'
+-- dir='/opt/ros/humble/include'
+-- Configuring done (3.4s)
+-- Generating done (0.2s)
+-- Build files have been written to: /home/yuanyan/Robot/build/tare_planner
+[ 10%] [32mBuilding CXX object CMakeFiles/tare_visualizer.dir/src/tare_visualizer/tare_visualizer.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/misc_utils.dir/src/utils/misc_utils.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/tsp_solver.dir/src/tsp_solver/tsp_solver.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/exploration_path.dir/src/exploration_path/exploration_path.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/navigationBoundary.dir/src/navigation_boundary_publisher/navigationBoundary.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/lidar_model.dir/src/lidar_model/lidar_model.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/rolling_occupancy_grid.dir/src/rolling_occupancy_grid/rolling_occupancy_grid.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/pointcloud_utils.dir/src/utils/pointcloud_utils.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/pointcloud_manager.dir/src/pointcloud_manager/pointcloud_manager.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/graph.dir/src/graph/graph.cpp.o[0m
+[ 28%] [32m[1mLinking CXX static library liblidar_model.a[0m
+[ 28%] Built target lidar_model
+[ 31%] [32mBuilding CXX object CMakeFiles/viewpoint.dir/src/viewpoint/viewpoint.cpp.o[0m
+[ 34%] [32m[1mLinking CXX static library libexploration_path.a[0m
+[ 34%] Built target exploration_path
+[ 36%] [32m[1mLinking CXX static library librolling_occupancy_grid.a[0m
+[ 36%] Built target rolling_occupancy_grid
+[ 39%] [32mBuilding CXX object CMakeFiles/planning_env.dir/src/planning_env/planning_env.cpp.o[0m
+[ 42%] [32m[1mLinking CXX static library libpointcloud_manager.a[0m
+[ 42%] Built target pointcloud_manager
+[ 44%] [32m[1mLinking CXX executable navigationBoundary[0m
+[ 44%] Built target navigationBoundary
+[ 47%] [32m[1mLinking CXX static library libtsp_solver.a[0m
+[ 47%] Built target tsp_solver
+[ 50%] [32m[1mLinking CXX static library libgraph.a[0m
+[ 50%] Built target graph
+[ 52%] [32m[1mLinking CXX static library libpointcloud_utils.a[0m
+[ 52%] Built target pointcloud_utils
+[ 55%] [32m[1mLinking CXX static library libmisc_utils.a[0m
+[ 55%] Built target misc_utils
+[ 57%] [32mBuilding CXX object CMakeFiles/rolling_grid.dir/src/rolling_grid/rolling_grid.cpp.o[0m
+[ 60%] [32m[1mLinking CXX static library libviewpoint.a[0m
+[ 60%] Built target viewpoint
+[ 63%] [32m[1mLinking CXX static library libtare_visualizer.a[0m
+[ 63%] Built target tare_visualizer
+[ 65%] [32m[1mLinking CXX static library librolling_grid.a[0m
+[ 65%] Built target rolling_grid
+[ 68%] [32mBuilding CXX object CMakeFiles/keypose_graph.dir/src/keypose_graph/keypose_graph.cpp.o[0m
+[ 71%] [32m[1mLinking CXX static library libplanning_env.a[0m
+[ 71%] Built target planning_env
+[ 73%] [32m[1mLinking CXX static library libkeypose_graph.a[0m
+[ 73%] Built target keypose_graph
+[ 76%] [32mBuilding CXX object CMakeFiles/grid_world.dir/src/grid_world/grid_world.cpp.o[0m
+[ 78%] [32m[1mLinking CXX static library libgrid_world.a[0m
+[ 78%] Built target grid_world
+[ 81%] [32mBuilding CXX object CMakeFiles/viewpoint_manager.dir/src/viewpoint_manager/viewpoint_manager.cpp.o[0m
+[ 84%] [32m[1mLinking CXX static library libviewpoint_manager.a[0m
+[ 84%] Built target viewpoint_manager
+[ 86%] [32mBuilding CXX object CMakeFiles/local_coverage_planner.dir/src/local_coverage_planner/local_coverage_planner.cpp.o[0m
+[ 89%] [32m[1mLinking CXX static library liblocal_coverage_planner.a[0m
+[ 89%] Built target local_coverage_planner
+[ 92%] [32mBuilding CXX object CMakeFiles/sensor_coverage_planner_ground.dir/src/sensor_coverage_planner/sensor_coverage_planner_ground.cpp.o[0m
+[ 94%] [32m[1mLinking CXX static library libsensor_coverage_planner_ground.a[0m
+[ 94%] Built target sensor_coverage_planner_ground
+[ 97%] [32mBuilding CXX object CMakeFiles/tare_planner_node.dir/src/tare_planner_node/tare_planner_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable tare_planner_node[0m
+[100%] Built target tare_planner_node
+-- Install configuration: ""
+-- Installing: /home/yuanyan/Robot/install/tare_planner/lib/tare_planner/navigationBoundary
+-- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/tare_planner/lib/tare_planner/navigationBoundary" to ""
+-- Installing: /home/yuanyan/Robot/install/tare_planner/lib/tare_planner/tare_planner_node
+-- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/tare_planner/lib/tare_planner/tare_planner_node" to ""
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_garage.launch
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore.launch
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_indoor.launch
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_tunnel.launch
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_campus.launch
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_forest.launch
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//explore_matterport.launch
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner//tare_planner_ground.rviz
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/tunnel.yaml
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/indoor.yaml
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/campus.yaml
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/forest.yaml
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/garage.yaml
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/matterport.yaml
+-- Up-to-date: /home/yuanyan/Robot/install/tare_planner/share/tare_planner
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/boundary.ply
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/ament_index/resource_index/package_run_dependencies/tare_planner
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/ament_index/resource_index/parent_prefix_path/tare_planner
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/ament_prefix_path.sh
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/ament_prefix_path.dsv
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/path.sh
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/environment/path.dsv
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.bash
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.sh
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.zsh
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/local_setup.dsv
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/package.dsv
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/ament_index/resource_index/packages/tare_planner
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/cmake/tare_plannerConfig.cmake
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/cmake/tare_plannerConfig-version.cmake
+-- Installing: /home/yuanyan/Robot/install/tare_planner/share/tare_planner/package.xml

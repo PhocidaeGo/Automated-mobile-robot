@@ -1,0 +1,2 @@
+Invoking command in '/home/yuanyan/LIO-SAM-ros2/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/LIO-SAM-ros2/build/lio_sam -- -j16 -l16
+Invoked command in '/home/yuanyan/LIO-SAM-ros2/build/lio_sam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/LIO-SAM-ros2/build/lio_sam -- -j16 -l16

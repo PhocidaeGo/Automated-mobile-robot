@@ -1,0 +1,10 @@
+/home/yuanyan/Robot/build/loam_interface/CMakeFiles/uninstall.dir
+/home/yuanyan/Robot/build/loam_interface/CMakeFiles/loam_interface_uninstall.dir
+/home/yuanyan/Robot/build/loam_interface/CMakeFiles/loamInterface.dir
+/home/yuanyan/Robot/build/loam_interface/CMakeFiles/test.dir
+/home/yuanyan/Robot/build/loam_interface/CMakeFiles/edit_cache.dir
+/home/yuanyan/Robot/build/loam_interface/CMakeFiles/rebuild_cache.dir
+/home/yuanyan/Robot/build/loam_interface/CMakeFiles/list_install_components.dir
+/home/yuanyan/Robot/build/loam_interface/CMakeFiles/install.dir
+/home/yuanyan/Robot/build/loam_interface/CMakeFiles/install/local.dir
+/home/yuanyan/Robot/build/loam_interface/CMakeFiles/install/strip.dir

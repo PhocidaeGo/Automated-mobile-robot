@@ -1,0 +1,1 @@
+/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_generator_c/lio_sam/msg/detail/cloud_info__type_support.h

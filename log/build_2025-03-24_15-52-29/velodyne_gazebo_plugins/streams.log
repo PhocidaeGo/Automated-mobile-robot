@@ -1,0 +1,34 @@
+[0.020s] Invoking command in '/home/yuanyan/Robot/build/velodyne_gazebo_plugins': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/velodyne_gazebo_plugins
+[0.063s] -- The C compiler identification is GNU 13.3.0
+[0.105s] -- The CXX compiler identification is GNU 13.3.0
+[0.122s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.191s] -- Detecting C compile features - done
+[0.198s] -- Detecting CXX compiler ABI info
+[0.271s] -- Detecting CXX compiler ABI info - done
+[0.282s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.282s] -- Detecting CXX compile features
+[0.283s] -- Detecting CXX compile features - done
+[0.286s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.425s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.510s] [31mCMake Error at CMakeLists.txt:13 (find_package):
+[0.510s]   By not providing "Findgazebo_dev.cmake" in CMAKE_MODULE_PATH this project
+[0.510s]   has asked CMake to find a package configuration file provided by
+[0.510s]   "gazebo_dev", but CMake did not find one.
+[0.510s] 
+[0.510s]   Could not find a package configuration file provided by "gazebo_dev" with
+[0.510s]   any of the following names:
+[0.510s] 
+[0.510s]     gazebo_devConfig.cmake
+[0.511s]     gazebo_dev-config.cmake
+[0.511s] 
+[0.511s]   Add the installation prefix of "gazebo_dev" to CMAKE_PREFIX_PATH or set
+[0.511s]   "gazebo_dev_DIR" to a directory containing one of the above files.  If
+[0.511s]   "gazebo_dev" provides a separate development package or SDK, be sure it has
+[0.511s]   been installed.
+[0.511s] 
+[0.511s] [0m
+[0.511s] -- Configuring incomplete, errors occurred!
+[0.514s] Invoked command in '/home/yuanyan/Robot/build/velodyne_gazebo_plugins' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/velodyne_simulator/velodyne_gazebo_plugins -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/velodyne_gazebo_plugins

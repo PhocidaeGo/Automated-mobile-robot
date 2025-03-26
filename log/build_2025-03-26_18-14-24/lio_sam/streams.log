@@ -1,0 +1,525 @@
+[0.022s] Invoking command in '/home/yuanyan/Robot/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/LIO-SAM-ros2 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/lio_sam
+[0.065s] -- The C compiler identification is GNU 13.3.0
+[0.107s] -- The CXX compiler identification is GNU 13.3.0
+[0.121s] -- Detecting C compiler ABI info
+[0.189s] -- Detecting C compiler ABI info - done
+[0.194s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.194s] -- Detecting C compile features
+[0.195s] -- Detecting C compile features - done
+[0.203s] -- Detecting CXX compiler ABI info
+[0.274s] -- Detecting CXX compiler ABI info - done
+[0.280s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.280s] -- Detecting CXX compile features
+[0.280s] -- Detecting CXX compile features - done
+[0.283s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.389s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.469s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.513s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.545s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.548s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.606s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.608s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.668s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.682s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.699s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.754s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.755s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.808s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.828s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.849s] -- Found pcl_msgs: 1.0.0 (/opt/ros/jazzy/share/pcl_msgs/cmake)
+[0.867s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[0.871s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.883s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.884s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.884s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.980s] -- Found tf2_sensor_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)
+[0.984s] -- Found tf2_eigen: 0.36.8 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[0.988s] -- Found OpenCV: /usr (found version "4.6.0") 
+[1.013s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[1.015s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[1.015s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[1.015s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[1.015s]   cmake_policy command to set the policy and suppress this warning.
+[1.015s] 
+[1.015s]   CMake variable FLANN_ROOT is set to:
+[1.015s] 
+[1.015s]     /usr
+[1.015s] 
+[1.015s]   For compatibility, find_package is ignoring the variable, but code in a
+[1.015s]   .cmake module might still use it.
+[1.015s] Call Stack (most recent call first):
+[1.015s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[1.015s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[1.015s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[1.015s]   CMakeLists.txt:27 (find_package)
+[1.015s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[1.015s] [0m
+[1.015s] -- Found flann version 1.9.2
+[1.224s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.224s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[1.249s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.311s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.311s] -- Found Threads: TRUE  
+[1.313s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.318s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.442s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.442s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.444s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.454s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[1.469s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[1.477s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.580s] -- Found X11: /usr/include   
+[1.580s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.640s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.640s] -- Looking for gethostbyname
+[1.699s] -- Looking for gethostbyname - found
+[1.699s] -- Looking for connect
+[1.762s] -- Looking for connect - found
+[1.762s] -- Looking for remove
+[1.819s] -- Looking for remove - found
+[1.819s] -- Looking for shmat
+[1.876s] -- Looking for shmat - found
+[1.876s] -- Looking for IceConnectionNumber in ICE
+[1.936s] -- Looking for IceConnectionNumber in ICE - found
+[2.030s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[2.032s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.034s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[2.035s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[2.044s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.056s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+[2.059s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+[2.063s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.125s] -- Checking for module 'libusb-1.0'
+[2.135s] --   Found libusb-1.0, version 1.0.27
+[2.163s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.164s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.164s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.206s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.206s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.208s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.208s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.519s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.524s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.813s] -- Found Qhull version 8.0.2
+[3.098s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.376s] -- looking for PCL_COMMON
+[3.376s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.377s] -- looking for PCL_KDTREE
+[3.377s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.377s] -- looking for PCL_OCTREE
+[3.378s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.378s] -- looking for PCL_SEARCH
+[3.379s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.379s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.379s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.379s] -- looking for PCL_FILTERS
+[3.380s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.380s] -- looking for PCL_2D
+[3.380s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[3.380s] -- looking for PCL_GEOMETRY
+[3.381s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[3.381s] -- looking for PCL_IO
+[3.381s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.381s] -- looking for PCL_FEATURES
+[3.382s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.382s] -- looking for PCL_ML
+[3.383s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.383s] -- looking for PCL_SEGMENTATION
+[3.384s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.384s] -- looking for PCL_VISUALIZATION
+[3.384s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.385s] -- looking for PCL_SURFACE
+[3.385s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.385s] -- looking for PCL_REGISTRATION
+[3.386s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.386s] -- looking for PCL_KEYPOINTS
+[3.387s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.387s] -- looking for PCL_TRACKING
+[3.388s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.388s] -- looking for PCL_RECOGNITION
+[3.389s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.389s] -- looking for PCL_STEREO
+[3.389s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.389s] -- looking for PCL_APPS
+[3.390s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.391s] -- looking for PCL_IN_HAND_SCANNER
+[3.391s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[3.391s] -- looking for PCL_MODELER
+[3.391s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[3.391s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.391s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[3.391s] -- looking for PCL_OUTOFCORE
+[3.392s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.392s] -- looking for PCL_PEOPLE
+[3.393s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.393s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.414s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex 
+[3.416s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[3.417s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.419s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[3.881s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.250s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.742s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.745s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.842s] -- Found PythonExtra: /usr/bin/python3  
+[5.142s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[5.208s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[5.208s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[5.208s]   rosidl_target_interfaces().  i.e:
+[5.208s] 
+[5.208s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[5.208s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[5.209s] 
+[5.209s] Call Stack (most recent call first):
+[5.209s]   CMakeLists.txt:40 (rosidl_target_interfaces)
+[5.209s] 
+[5.209s] [0m
+[5.228s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[5.228s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[5.228s]   rosidl_target_interfaces().  i.e:
+[5.228s] 
+[5.228s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[5.228s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[5.228s] 
+[5.229s] Call Stack (most recent call first):
+[5.229s]   CMakeLists.txt:44 (rosidl_target_interfaces)
+[5.229s] 
+[5.229s] [0m
+[5.249s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[5.249s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[5.249s]   rosidl_target_interfaces().  i.e:
+[5.249s] 
+[5.249s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[5.249s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[5.249s] 
+[5.249s] Call Stack (most recent call first):
+[5.249s]   CMakeLists.txt:49 (rosidl_target_interfaces)
+[5.249s] 
+[5.249s] [0m
+[5.270s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[5.270s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[5.270s]   rosidl_target_interfaces().  i.e:
+[5.270s] 
+[5.270s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[5.270s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[5.270s] 
+[5.270s] Call Stack (most recent call first):
+[5.270s]   CMakeLists.txt:54 (rosidl_target_interfaces)
+[5.270s] 
+[5.270s] [0m
+[5.272s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[5.291s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.313s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.315s] -- Configured cppcheck include dirs: /home/yuanyan/Robot/src/LIO-SAM-ros2/include/lio_sam
+[5.315s] -- Configured cppcheck exclude dirs and/or files: 
+[5.335s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.335s] -- Configured cpplint exclude dirs and/or files: 
+[5.338s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.338s] -- Configured 'flake8' exclude dirs and/or files: 
+[5.344s] -- Added test 'lint_cmake' to check CMake code style
+[5.347s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.368s] -- Added test 'uncrustify' to check C / C++ code style
+[5.368s] -- Configured uncrustify additional arguments: 
+[5.371s] -- Added test 'xmllint' to check XML markup files
+[5.372s] -- Configuring done (5.3s)
+[5.472s] -- Generating done (0.1s)
+[5.489s] -- Build files have been written to: /home/yuanyan/Robot/build/lio_sam
+[5.506s] Invoked command in '/home/yuanyan/Robot/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/LIO-SAM-ros2 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/lio_sam
+[5.506s] Invoking command in '/home/yuanyan/Robot/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/lio_sam -- -j16 -l16
+[5.549s] [  1%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[5.554s] [  1%] Built target ament_cmake_python_copy_lio_sam
+[5.687s] running egg_info
+[5.688s] creating lio_sam.egg-info
+[5.698s] writing lio_sam.egg-info/PKG-INFO
+[5.698s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[5.699s] writing top-level names to lio_sam.egg-info/top_level.txt
+[5.699s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[5.729s] [  1%] Built target lio_sam__rosidl_generator_type_description
+[5.731s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[5.731s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[5.737s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.747s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.751s] [  5%] Built target ament_cmake_python_build_lio_sam_egg
+[5.991s] [  5%] Built target lio_sam__cpp
+[6.005s] [  9%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__functions.c.o[0m
+[6.005s] [  9%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__functions.c.o[0m
+[6.005s] [ 11%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__type_support.c.o[0m
+[6.005s] [ 13%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__description.c.o[0m
+[6.006s] [ 15%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/srv/detail/save_map__type_support.c.o[0m
+[6.007s] [ 17%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_c.dir/rosidl_generator_c/lio_sam/msg/detail/cloud_info__description.c.o[0m
+[6.123s] [ 19%] [32m[1mLinking C shared library liblio_sam__rosidl_generator_c.so[0m
+[6.150s] [ 19%] Built target lio_sam__rosidl_generator_c
+[6.157s] [ 25%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[6.157s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[6.157s] [ 25%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.157s] [ 26%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.158s] [ 28%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[6.159s] [ 30%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.375s] [ 32%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/srv/save_map__type_support.cpp.o[0m
+[6.377s] [ 34%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_c.dir/rosidl_typesupport_c/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[6.379s] [ 36%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/srv/save_map__type_support.cpp.o[0m
+[6.381s] [ 38%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/lio_sam/msg/cloud_info__type_support.cpp.o[0m
+[6.393s] [ 40%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/msg/detail/cloud_info__type_support.c.o[0m
+[6.394s] [ 42%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/lio_sam/srv/detail/save_map__type_support.c.o[0m
+[6.401s] [ 44%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/srv/detail/save_map__type_support.cpp.o[0m
+[6.403s] [ 46%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/lio_sam/msg/detail/cloud_info__type_support.cpp.o[0m
+[6.412s] [ 48%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_c.so[0m
+[6.423s] [ 50%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/msg/detail/dds_fastrtps/cloud_info__type_support.cpp.o[0m
+[6.424s] [ 51%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/lio_sam/srv/detail/dds_fastrtps/save_map__type_support.cpp.o[0m
+[6.442s] [ 51%] Built target lio_sam__rosidl_typesupport_c
+[6.456s] [ 53%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/msg/detail/cloud_info__type_support_c.cpp.o[0m
+[6.456s] [ 55%] [32mBuilding CXX object CMakeFiles/lio_sam__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/lio_sam/srv/detail/save_map__type_support_c.cpp.o[0m
+[6.466s] [ 57%] [32m[1mLinking C shared library liblio_sam__rosidl_typesupport_introspection_c.so[0m
+[6.495s] [ 57%] Built target lio_sam__rosidl_typesupport_introspection_c
+[6.715s] [ 59%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_cpp.so[0m
+[6.762s] [ 61%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_introspection_cpp.so[0m
+[6.769s] [ 61%] Built target lio_sam__rosidl_typesupport_cpp
+[6.815s] [ 61%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[6.964s] [ 63%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_cpp.so[0m
+[6.968s] [ 65%] [32m[1mLinking CXX shared library liblio_sam__rosidl_typesupport_fastrtps_c.so[0m
+[7.013s] [ 65%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[7.024s] [ 65%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[7.038s] [ 65%] Built target lio_sam
+[7.052s] [ 67%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.052s] [ 69%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[7.052s] [ 71%] [32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o[0m
+[7.054s] [ 73%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[7.055s] [ 75%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[7.425s] [ 75%] Built target lio_sam__py
+[7.444s] [ 76%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/srv/_save_map_s.c.o[0m
+[7.446s] [ 78%] [32mBuilding C object CMakeFiles/lio_sam__rosidl_generator_py.dir/rosidl_generator_py/lio_sam/msg/_cloud_info_s.c.o[0m
+[7.661s] [ 80%] [32m[1mLinking C shared library liblio_sam__rosidl_generator_py.so[0m
+[7.697s] [ 80%] Built target lio_sam__rosidl_generator_py
+[7.711s] [ 82%] [32mBuilding C object CMakeFiles/lio_sam_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[7.712s] [ 84%] [32mBuilding C object CMakeFiles/lio_sam_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[7.715s] [ 86%] [32mBuilding C object CMakeFiles/lio_sam_s__rosidl_typesupport_c.dir/rosidl_generator_py/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c.o[0m
+[7.818s] [ 88%] [32m[1mLinking C shared module rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so[0m
+[7.820s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so[0m
+[7.842s] [ 90%] Built target lio_sam_s__rosidl_typesupport_fastrtps_c
+[7.843s] [ 90%] Built target lio_sam_s__rosidl_typesupport_introspection_c
+[7.886s] [ 92%] [32m[1mLinking C shared module rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.so[0m
+[7.912s] [ 92%] Built target lio_sam_s__rosidl_typesupport_c
+[22.108s] [ 94%] [32m[1mLinking CXX executable lio_sam_featureExtraction[0m
+[22.471s] [ 94%] Built target lio_sam_featureExtraction
+[27.218s] [ 96%] [32m[1mLinking CXX executable lio_sam_imageProjection[0m
+[27.618s] [ 96%] Built target lio_sam_imageProjection
+[31.770s] [ 98%] [32m[1mLinking CXX executable lio_sam_imuPreintegration[0m
+[32.247s] [ 98%] Built target lio_sam_imuPreintegration
+[43.351s] [100%] [32m[1mLinking CXX executable lio_sam_mapOptimization[0m
+[44.019s] [100%] Built target lio_sam_mapOptimization
+[44.027s] Invoked command in '/home/yuanyan/Robot/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/lio_sam -- -j16 -l16
+[44.028s] Invoking command in '/home/yuanyan/Robot/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/lio_sam
+[44.036s] -- Install configuration: "Release"
+[44.036s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/ament_index/resource_index/rosidl_interfaces/lio_sam
+[44.036s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/msg/CloudInfo.json
+[44.036s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/srv/SaveMap.json
+[44.036s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam
+[44.036s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg
+[44.036s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_c__visibility_control.h
+[44.036s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.h
+[44.036s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[44.036s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.h
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__description.c
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.h
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.h
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.c
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__functions.c
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.h
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__description.c
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.h
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.c
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.c
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__functions.h
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.h
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/environment/library_path.sh
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/environment/library_path.dsv
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so
+[44.037s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_generator_c.so" to ""
+[44.037s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam
+[44.037s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg
+[44.037s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_c.h
+[44.037s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_c.h
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so
+[44.038s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_c.so" to ""
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.c
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_c.h
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.c
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_c.h
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so
+[44.038s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_c.so" to ""
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so
+[44.038s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_c.so" to ""
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/cloud_info.hpp
+[44.038s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__traits.hpp
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.hpp
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__struct.hpp
+[44.038s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__builder.hpp
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_generator_cpp__visibility_control.hpp
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/save_map.hpp
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__traits.hpp
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__struct.hpp
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__builder.hpp
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.hpp
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/dds_fastrtps
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_fastrtps_cpp.hpp
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_fastrtps_cpp.hpp
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/dds_fastrtps
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so
+[44.039s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_fastrtps_cpp.so" to ""
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__type_support.cpp
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/msg/detail/cloud_info__rosidl_typesupport_introspection_cpp.hpp
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv
+[44.039s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail
+[44.039s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__type_support.cpp
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/lio_sam/srv/detail/save_map__rosidl_typesupport_introspection_cpp.hpp
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so
+[44.040s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_introspection_cpp.so" to ""
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so
+[44.040s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_typesupport_cpp.so" to ""
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/environment/pythonpath.sh
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/environment/pythonpath.dsv
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/top_level.txt
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/SOURCES.txt
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/dependency_links.txt
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam-1.0.0-py3.12.egg-info/PKG-INFO
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_introspection_c.c
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info_s.c
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/__init__.py
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info.py
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_c.c
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/__init__.py
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map_s.c
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/__init__.py
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map.py
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.so
+[44.040s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/_lio_sam_s.ep.rosidl_typesupport_fastrtps_c.c
+[44.071s] Listing '/home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam'...
+[44.071s] Compiling '/home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/__init__.py'...
+[44.071s] Listing '/home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg'...
+[44.071s] Compiling '/home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/__init__.py'...
+[44.071s] Compiling '/home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/msg/_cloud_info.py'...
+[44.071s] Listing '/home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv'...
+[44.071s] Compiling '/home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/__init__.py'...
+[44.071s] Compiling '/home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/srv/_save_map.py'...
+[44.075s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so
+[44.075s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_fastrtps_c.so" to ""
+[44.075s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so
+[44.075s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_introspection_c.so" to ""
+[44.075s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.so
+[44.075s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/python3.12/site-packages/lio_sam/lio_sam_s__rosidl_typesupport_c.so" to ""
+[44.075s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so
+[44.075s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/liblio_sam__rosidl_generator_py.so" to ""
+[44.075s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/msg/CloudInfo.idl
+[44.075s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/srv/SaveMap.idl
+[44.075s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/msg/CloudInfo.msg
+[44.076s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/srv/SaveMap.srv
+[44.076s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//launch
+[44.076s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//launch/run.launch.py
+[44.076s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config
+[44.076s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc
+[44.076s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/device-boat.png
+[44.076s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/device-hand-2.png
+[44.076s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/ouster-demo.gif
+[44.080s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/kitti-demo.gif
+[44.085s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/kitti2bag
+[44.085s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/kitti2bag/kitti2bag.py
+[44.085s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/kitti2bag/README.md
+[44.085s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/loop-closure-2.gif
+[44.090s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/device-jackal.png
+[44.090s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/paper.pdf
+[44.092s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/gps-demo.gif
+[44.095s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/demo.gif
+[44.098s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/device-hand.png
+[44.099s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/kitti-map.png
+[44.099s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/system.png
+[44.099s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/imu-debug.gif
+[44.100s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/imu-transform.png
+[44.101s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/ouster-device.jpg
+[44.101s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/doc/loop-closure.gif
+[44.106s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/params.yaml
+[44.106s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/rviz2.rviz
+[44.106s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam//config/robot.urdf.xacro
+[44.106s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/lio_sam/lio_sam_imageProjection
+[44.107s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/lio_sam/lio_sam_imageProjection" to ""
+[44.107s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration
+[44.108s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/lio_sam/lio_sam_imuPreintegration" to ""
+[44.108s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction
+[44.109s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/lio_sam/lio_sam_featureExtraction" to ""
+[44.109s] -- Installing: /home/yuanyan/Robot/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization
+[44.110s] -- Set non-toolchain portion of runtime path of "/home/yuanyan/Robot/install/lio_sam/lib/lio_sam/lio_sam_mapOptimization" to ""
+[44.110s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include
+[44.110s] -- Up-to-date: /home/yuanyan/Robot/install/lio_sam/include/lio_sam
+[44.110s] -- Installing: /home/yuanyan/Robot/install/lio_sam/include/lio_sam/utility.hpp
+[44.110s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/ament_index/resource_index/package_run_dependencies/lio_sam
+[44.110s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/ament_index/resource_index/parent_prefix_path/lio_sam
+[44.110s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/environment/ament_prefix_path.sh
+[44.110s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/environment/ament_prefix_path.dsv
+[44.110s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/environment/path.sh
+[44.110s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/environment/path.dsv
+[44.110s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/local_setup.bash
+[44.110s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/local_setup.sh
+[44.110s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/local_setup.zsh
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/local_setup.dsv
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/package.dsv
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/ament_index/resource_index/packages/lio_sam
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cExport-release.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cExport-release.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cExport-release.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cExport-release.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_cppExport.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_typesupport_fastrtps_cppExport-release.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_introspection_cppExport-release.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/lio_sam__rosidl_typesupport_cppExport-release.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/export_lio_sam__rosidl_generator_pyExport-release.cmake
+[44.111s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/rosidl_cmake-extras.cmake
+[44.112s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_dependencies-extras.cmake
+[44.112s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_include_directories-extras.cmake
+[44.112s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_libraries-extras.cmake
+[44.112s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/ament_cmake_export_targets-extras.cmake
+[44.112s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[44.112s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[44.112s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/lio_samConfig.cmake
+[44.112s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/cmake/lio_samConfig-version.cmake
+[44.112s] -- Installing: /home/yuanyan/Robot/install/lio_sam/share/lio_sam/package.xml
+[44.114s] Invoked command in '/home/yuanyan/Robot/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/lio_sam

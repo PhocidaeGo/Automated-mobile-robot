@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_generator_py/lio_sam/lio_sam_s__rosidl_typesupport_c.so" "TARGETS" "lio_sam_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/lio_sam")

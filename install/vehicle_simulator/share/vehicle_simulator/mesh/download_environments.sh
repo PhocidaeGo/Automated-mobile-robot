@@ -1,0 +1,1 @@
+/home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/vehicle_simulator/mesh/download_environments.sh

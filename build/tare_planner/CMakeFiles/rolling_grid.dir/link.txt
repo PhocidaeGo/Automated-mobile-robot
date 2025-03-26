@@ -1,0 +1,2 @@
+/usr/bin/ar qc librolling_grid.a CMakeFiles/rolling_grid.dir/src/rolling_grid/rolling_grid.cpp.o
+/usr/bin/ranlib librolling_grid.a

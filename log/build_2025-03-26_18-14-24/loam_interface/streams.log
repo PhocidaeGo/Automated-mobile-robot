@@ -1,0 +1,24 @@
+[0.021s] Invoking command in '/home/yuanyan/Robot/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/loam_interface -- -j16 -l16
+[0.078s] [100%] Built target loamInterface
+[0.103s] Invoked command in '/home/yuanyan/Robot/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/Robot/build/loam_interface -- -j16 -l16
+[0.105s] Invoking command in '/home/yuanyan/Robot/build/loam_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/loam_interface
+[0.113s] -- Install configuration: ""
+[0.113s] -- Execute custom install script
+[0.113s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/lib/loam_interface/loamInterface
+[0.113s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/launch/loam_interface.launch
+[0.113s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/ament_index/resource_index/package_run_dependencies/loam_interface
+[0.114s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/ament_index/resource_index/parent_prefix_path/loam_interface
+[0.114s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/environment/ament_prefix_path.sh
+[0.114s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/environment/ament_prefix_path.dsv
+[0.114s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/environment/path.sh
+[0.114s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/environment/path.dsv
+[0.114s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/local_setup.bash
+[0.114s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/local_setup.sh
+[0.114s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/local_setup.zsh
+[0.114s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/local_setup.dsv
+[0.114s] -- Symlinking: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.dsv
+[0.120s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/ament_index/resource_index/packages/loam_interface
+[0.120s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig.cmake
+[0.120s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/cmake/loam_interfaceConfig-version.cmake
+[0.120s] -- Up-to-date symlink: /home/yuanyan/Robot/install/loam_interface/share/loam_interface/package.xml
+[0.160s] Invoked command in '/home/yuanyan/Robot/build/loam_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/yuanyan/Robot/build/loam_interface

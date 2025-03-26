@@ -1,0 +1,2 @@
+/usr/bin/ar qc libmisc_utils.a CMakeFiles/misc_utils.dir/src/utils/misc_utils.cpp.o
+/usr/bin/ranlib libmisc_utils.a

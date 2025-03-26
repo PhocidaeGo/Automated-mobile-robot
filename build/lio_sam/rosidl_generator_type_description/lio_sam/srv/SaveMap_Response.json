@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "lio_sam/srv/SaveMap_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "lio_sam/srv/SaveMap_Response",
+      "hash_string": "RIHS01_dd3f18913948430ed7c6a8419668ce2c2ce68f7ca8d6643d8508bd861cc4ecb7"
+    }
+  ]
+}

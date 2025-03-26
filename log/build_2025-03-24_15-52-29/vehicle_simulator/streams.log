@@ -1,0 +1,110 @@
+[0.020s] Invoking command in '/home/yuanyan/Robot/build/vehicle_simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/vehicle_simulator -DCMAKE_INSTALL_PREFIX=/home/yuanyan/Robot/install/vehicle_simulator
+[0.031s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.238s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.245s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.275s] -- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.285s] -- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.297s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.312s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.387s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.389s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.457s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.523s] -- Found std_msgs: 5.3.5 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.532s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.560s] -- Found sensor_msgs: 5.3.5 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[0.576s] -- Found tf2_ros: 0.36.8 (/opt/ros/jazzy/share/tf2_ros/cmake)
+[0.655s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.657s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.658s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.658s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.659s] -- Looking for gz-msgs10 -- found version 10.3.2
+[0.663s] -- Searching for dependencies of gz-msgs10
+[0.676s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.676s] -- Searching for dependencies of gz-utils2
+[0.676s] -- Looking for gz-math7 -- found version 7.5.2
+[0.677s] -- Searching for dependencies of gz-math7
+[0.677s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.681s] -- Checking for module 'tinyxml2'
+[0.690s] --   Found tinyxml2, version 10.0.0
+[0.709s] -- Looking for gz-transport13 -- found version 13.4.1
+[0.709s] -- Searching for dependencies of gz-transport13
+[0.728s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[0.731s] -- Checking for module 'libzmq >= 4'
+[0.740s] --   Found libzmq, version 4.3.5
+[0.768s] -- Checking for module 'uuid'
+[0.776s] --   Found uuid, version 2.39.3
+[0.797s] -- Looking for gz-utils2 -- found version 2.2.1
+[0.797s] -- Searching for dependencies of gz-utils2
+[0.797s] -- Searching for <gz-utils2> component [cli]
+[0.798s] -- Looking for gz-utils2-cli -- found version 2.2.1
+[0.798s] -- Searching for dependencies of gz-utils2-cli
+[0.798s] -- Looking for gz-msgs10 -- found version 10.3.2
+[0.816s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.816s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.816s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.816s]   cmake_policy command to set the policy and suppress this warning.
+[0.816s] 
+[0.816s]   CMake variable FLANN_ROOT is set to:
+[0.816s] 
+[0.816s]     /usr
+[0.816s] 
+[0.816s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.816s]   .cmake module might still use it.
+[0.816s] Call Stack (most recent call first):
+[0.816s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.816s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.816s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.816s]   CMakeLists.txt:40 (find_package)
+[0.816s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.816s] [0m
+[0.816s] -- Found flann version 1.9.2
+[0.969s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.129s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.135s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.137s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[1.137s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.453s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.457s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.763s] -- Found Qhull version 8.0.2
+[2.129s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.439s] -- looking for PCL_COMMON
+[2.439s] -- looking for PCL_KDTREE
+[2.439s] -- looking for PCL_OCTREE
+[2.440s] -- looking for PCL_SEARCH
+[2.440s] -- looking for PCL_SAMPLE_CONSENSUS
+[2.440s] -- looking for PCL_FILTERS
+[2.440s] -- looking for PCL_2D
+[2.441s] -- looking for PCL_GEOMETRY
+[2.441s] -- looking for PCL_IO
+[2.441s] -- looking for PCL_FEATURES
+[2.441s] -- looking for PCL_ML
+[2.442s] -- looking for PCL_SEGMENTATION
+[2.442s] -- looking for PCL_VISUALIZATION
+[2.442s] -- looking for PCL_SURFACE
+[2.443s] -- looking for PCL_REGISTRATION
+[2.443s] -- looking for PCL_KEYPOINTS
+[2.443s] -- looking for PCL_TRACKING
+[2.444s] -- looking for PCL_RECOGNITION
+[2.444s] -- looking for PCL_STEREO
+[2.444s] -- looking for PCL_APPS
+[2.445s] -- looking for PCL_IN_HAND_SCANNER
+[2.445s] -- looking for PCL_MODELER
+[2.445s] -- looking for PCL_POINT_CLOUD_EDITOR
+[2.445s] -- looking for PCL_OUTOFCORE
+[2.446s] -- looking for PCL_PEOPLE
+[2.447s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[2.469s] -- Found pcl_ros: 2.6.2 (/opt/ros/jazzy/share/pcl_ros/cmake)
+[2.489s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[2.565s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.568s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.569s] -- Configured cppcheck include dirs: /home/yuanyan/Robot/src/autonomous_exploration_development_environment/src/vehicle_simulator/include
+[2.569s] -- Configured cppcheck exclude dirs and/or files: 
+[2.572s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.572s] -- Configured cpplint exclude dirs and/or files: 
+[2.573s] -- Added test 'lint_cmake' to check CMake code style
+[2.577s] -- Added test 'uncrustify' to check C / C++ code style
+[2.577s] -- Configured uncrustify additional arguments: 
+[2.578s] -- Added test 'xmllint' to check XML markup files
+[2.578s] -- Configuring done (2.5s)
+[2.616s] -- Generating done (0.0s)
+[2.620s] -- Build files have been written to: /home/yuanyan/Robot/build/vehicle_simulator

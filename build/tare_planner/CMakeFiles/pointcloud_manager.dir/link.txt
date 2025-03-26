@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpointcloud_manager.a CMakeFiles/pointcloud_manager.dir/src/pointcloud_manager/pointcloud_manager.cpp.o
+/usr/bin/ranlib libpointcloud_manager.a

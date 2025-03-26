@@ -1,0 +1,292 @@
+[0.006s] Invoking command in '/home/yuanyan/LIO-SAM-ros2/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/LIO-SAM-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/LIO-SAM-ros2/install/lio_sam
+[0.049s] -- The C compiler identification is GNU 13.3.0
+[0.085s] -- The CXX compiler identification is GNU 13.3.0
+[0.096s] -- Detecting C compiler ABI info
+[0.162s] -- Detecting C compiler ABI info - done
+[0.168s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.168s] -- Detecting C compile features
+[0.168s] -- Detecting C compile features - done
+[0.175s] -- Detecting CXX compiler ABI info
+[0.241s] -- Detecting CXX compiler ABI info - done
+[0.247s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.248s] -- Detecting CXX compile features
+[0.248s] -- Detecting CXX compile features - done
+[0.250s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.348s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.391s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.417s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.421s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.457s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.485s] -- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.487s] -- Found rclcpp: 28.1.6 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.541s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.543s] -- Found rmw_fastrtps_cpp: 8.4.1 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.605s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.619s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.635s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.688s] -- Found rclpy: 7.1.3 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.689s] -- Found cv_bridge: 4.1.0 (/opt/ros/jazzy/share/cv_bridge/cmake)
+[0.737s] -- Found nav_msgs: 5.3.5 (/opt/ros/jazzy/share/nav_msgs/cmake)
+[0.755s] -- Found visualization_msgs: 5.3.5 (/opt/ros/jazzy/share/visualization_msgs/cmake)
+[0.774s] -- Found pcl_msgs: 1.0.0 (/opt/ros/jazzy/share/pcl_msgs/cmake)
+[0.789s] -- Found tf2: 0.36.8 (/opt/ros/jazzy/share/tf2/cmake)
+[0.793s] -- Found tf2_geometry_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_geometry_msgs/cmake)
+[0.803s] -- Found eigen3_cmake_module: 0.3.0 (/opt/ros/jazzy/share/eigen3_cmake_module/cmake)
+[0.804s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[0.804s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[0.890s] -- Found tf2_sensor_msgs: 0.36.8 (/opt/ros/jazzy/share/tf2_sensor_msgs/cmake)
+[0.894s] -- Found tf2_eigen: 0.36.8 (/opt/ros/jazzy/share/tf2_eigen/cmake)
+[0.898s] -- Found OpenCV: /usr (found version "4.6.0") 
+[0.922s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65.0") found components: system filesystem iostreams serialization 
+[0.923s] [33mCMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/pcl/Modules/FindFLANN.cmake:45 (find_package):
+[0.923s]   Policy CMP0144 is not set: find_package uses upper-case <PACKAGENAME>_ROOT
+[0.923s]   variables.  Run "cmake --help-policy CMP0144" for policy details.  Use the
+[0.923s]   cmake_policy command to set the policy and suppress this warning.
+[0.923s] 
+[0.924s]   CMake variable FLANN_ROOT is set to:
+[0.924s] 
+[0.924s]     /usr
+[0.924s] 
+[0.924s]   For compatibility, find_package is ignoring the variable, but code in a
+[0.924s]   .cmake module might still use it.
+[0.924s] Call Stack (most recent call first):
+[0.924s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:261 (find_package)
+[0.924s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:306 (find_flann)
+[0.924s]   /usr/lib/x86_64-linux-gnu/cmake/pcl/PCLConfig.cmake:570 (find_external_library)
+[0.924s]   CMakeLists.txt:27 (find_package)
+[0.924s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[0.925s] [0m
+[0.925s] -- Found flann version 1.9.2
+[1.123s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[1.124s] -- Found OpenMP: TRUE (found version "4.5") found components: CXX 
+[1.146s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.206s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.207s] -- Found Threads: TRUE  
+[1.208s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.214s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.331s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.332s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.333s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.342s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.3")  
+[1.356s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.43") 
+[1.363s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.461s] -- Found X11: /usr/include   
+[1.461s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.522s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.522s] -- Looking for gethostbyname
+[1.581s] -- Looking for gethostbyname - found
+[1.581s] -- Looking for connect
+[1.641s] -- Looking for connect - found
+[1.641s] -- Looking for remove
+[1.695s] -- Looking for remove - found
+[1.695s] -- Looking for shmat
+[1.749s] -- Looking for shmat - found
+[1.749s] -- Looking for IceConnectionNumber in ICE
+[1.805s] -- Looking for IceConnectionNumber in ICE - found
+[1.896s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.6.1") 
+[1.897s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[1.899s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.4") 
+[1.900s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.4.5") 
+[1.909s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[1.919s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.5.1")  
+[1.922s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.13.2") 
+[1.925s] -- Found utf8cpp: /usr/include/utf8cpp  
+[1.986s] -- Checking for module 'libusb-1.0'
+[1.998s] --   Found libusb-1.0, version 1.0.27
+[2.027s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.028s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.028s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.074s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.074s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.076s] -- Could NOT find Pcap (missing: PCAP_LIBRARIES PCAP_INCLUDE_DIRS) 
+[2.076s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.364s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.368s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.623s] -- Found Qhull version 8.0.2
+[2.891s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.151s] -- looking for PCL_COMMON
+[3.151s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.152s] -- looking for PCL_KDTREE
+[3.152s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.152s] -- looking for PCL_OCTREE
+[3.153s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.153s] -- looking for PCL_SEARCH
+[3.153s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.154s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.154s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.154s] -- looking for PCL_FILTERS
+[3.155s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.155s] -- looking for PCL_2D
+[3.155s] -- Found PCL_2D: /usr/include/pcl-1.14  
+[3.155s] -- looking for PCL_GEOMETRY
+[3.155s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.14  
+[3.155s] -- looking for PCL_IO
+[3.156s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.156s] -- looking for PCL_FEATURES
+[3.157s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.157s] -- looking for PCL_ML
+[3.157s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.157s] -- looking for PCL_SEGMENTATION
+[3.158s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.158s] -- looking for PCL_VISUALIZATION
+[3.159s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.159s] -- looking for PCL_SURFACE
+[3.159s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.160s] -- looking for PCL_REGISTRATION
+[3.160s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.160s] -- looking for PCL_KEYPOINTS
+[3.161s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.161s] -- looking for PCL_TRACKING
+[3.162s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.162s] -- looking for PCL_RECOGNITION
+[3.162s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.163s] -- looking for PCL_STEREO
+[3.163s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.163s] -- looking for PCL_APPS
+[3.164s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.164s] -- looking for PCL_IN_HAND_SCANNER
+[3.164s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.14  
+[3.165s] -- looking for PCL_MODELER
+[3.165s] -- Found PCL_MODELER: /usr/include/pcl-1.14  
+[3.165s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.165s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.14  
+[3.165s] -- looking for PCL_OUTOFCORE
+[3.166s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.166s] -- looking for PCL_PEOPLE
+[3.166s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.167s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::RenderingContextOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.186s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.83.0/BoostConfig.cmake (found suitable version "1.83.0", minimum required is "1.65") found components: serialization system filesystem thread program_options date_time timer chrono regex 
+[3.187s] -- GTSAM include directory:  /usr/local/lib/cmake/GTSAM/../../../include
+[3.188s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.189s] -- Found pcl_conversions: 2.6.2 (/opt/ros/jazzy/share/pcl_conversions/cmake)
+[3.595s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[3.950s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.406s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.408s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.502s] -- Found PythonExtra: /usr/bin/python3  
+[4.785s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[4.849s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[4.849s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[4.849s]   rosidl_target_interfaces().  i.e:
+[4.849s] 
+[4.849s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[4.849s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[4.849s] 
+[4.849s] Call Stack (most recent call first):
+[4.849s]   CMakeLists.txt:40 (rosidl_target_interfaces)
+[4.849s] 
+[4.850s] [0m
+[4.867s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[4.867s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[4.868s]   rosidl_target_interfaces().  i.e:
+[4.868s] 
+[4.868s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[4.868s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[4.868s] 
+[4.868s] Call Stack (most recent call first):
+[4.868s]   CMakeLists.txt:44 (rosidl_target_interfaces)
+[4.868s] 
+[4.868s] [0m
+[4.885s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[4.885s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[4.885s]   rosidl_target_interfaces().  i.e:
+[4.885s] 
+[4.885s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[4.886s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[4.886s] 
+[4.886s] Call Stack (most recent call first):
+[4.886s]   CMakeLists.txt:49 (rosidl_target_interfaces)
+[4.886s] 
+[4.886s] [0m
+[4.903s] [0mCMake Deprecation Warning at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):
+[4.904s]   Use rosidl_get_typesupport_target() and target_link_libraries() instead of
+[4.904s]   rosidl_target_interfaces().  i.e:
+[4.904s] 
+[4.904s]     rosidl_get_typesupport_target(cpp_typesupport_target "${PROJECT_NAME}" "rosidl_typesupport_cpp")
+[4.904s]     target_link_libraries(${PROJECT_NAME}_node "${cpp_typesupport_target}")
+[4.904s] 
+[4.904s] Call Stack (most recent call first):
+[4.904s]   CMakeLists.txt:54 (rosidl_target_interfaces)
+[4.904s] 
+[4.904s] [0m
+[4.906s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[4.924s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.939s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.940s] -- Configured cppcheck include dirs: /home/yuanyan/LIO-SAM-ros2/include/lio_sam;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_generator_c>;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_typesupport_introspection_cpp>;/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_generator_c;/home/yuanyan/LIO-SAM-ros2/build/lio_sam/rosidl_generator_py
+[4.940s] -- Configured cppcheck exclude dirs and/or files: 
+[4.954s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[4.954s] -- Configured cpplint exclude dirs and/or files: 
+[4.956s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.956s] -- Configured 'flake8' exclude dirs and/or files: 
+[4.960s] -- Added test 'lint_cmake' to check CMake code style
+[4.962s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.975s] -- Added test 'uncrustify' to check C / C++ code style
+[4.975s] -- Configured uncrustify additional arguments: 
+[4.978s] -- Added test 'xmllint' to check XML markup files
+[4.979s] -- Configuring done (5.0s)
+[5.070s] -- Generating done (0.1s)
+[5.087s] -- Build files have been written to: /home/yuanyan/LIO-SAM-ros2/build/lio_sam
+[5.103s] Invoked command in '/home/yuanyan/LIO-SAM-ros2/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/yuanyan/LIO-SAM-ros2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/yuanyan/LIO-SAM-ros2/install/lio_sam
+[5.103s] Invoking command in '/home/yuanyan/LIO-SAM-ros2/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/LIO-SAM-ros2/build/lio_sam -- -j16 -l16
+[5.145s] [  1%] Built target lio_sam__rosidl_generator_type_description
+[5.151s] [  1%] Built target ament_cmake_python_symlink_lio_sam
+[5.158s] [  3%] Built target lio_sam__cpp
+[5.162s] [ 19%] Built target lio_sam__rosidl_generator_c
+[5.179s] [ 26%] Built target lio_sam__rosidl_typesupport_c
+[5.179s] [ 34%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[5.180s] [ 42%] Built target lio_sam__rosidl_typesupport_cpp
+[5.180s] [ 50%] Built target lio_sam__rosidl_typesupport_introspection_c
+[5.180s] [ 57%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[5.181s] [ 65%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[5.196s] [ 65%] Built target lio_sam
+[5.211s] [ 73%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[5.211s] [ 73%] [32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o[0m
+[5.211s] [ 73%] Built target lio_sam__py
+[5.211s] [ 73%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[5.217s] [ 75%] [32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o[0m
+[5.229s] [ 80%] Built target lio_sam__rosidl_generator_py
+[5.244s] [ 84%] Built target lio_sam_s__rosidl_typesupport_c
+[5.250s] [ 88%] Built target lio_sam_s__rosidl_typesupport_introspection_c
+[5.252s] [ 92%] Built target lio_sam_s__rosidl_typesupport_fastrtps_c
+[5.307s] running egg_info
+[5.318s] writing lio_sam.egg-info/PKG-INFO
+[5.318s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[5.318s] writing top-level names to lio_sam.egg-info/top_level.txt
+[5.350s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[5.351s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[5.371s] [ 92%] Built target ament_cmake_python_build_lio_sam_egg
+[10.468s] In file included from [01m[K/usr/local/include/gtsam/base/Matrix.h:28[m[K,
+[10.468s]                  from [01m[K/usr/local/include/gtsam/base/Manifold.h:22[m[K,
+[10.468s]                  from [01m[K/usr/local/include/gtsam/base/Lie.h:26[m[K,
+[10.468s]                  from [01m[K/usr/local/include/gtsam/base/VectorSpace.h:11[m[K,
+[10.468s]                  from [01m[K/usr/local/include/gtsam/geometry/Point2.h:20[m[K,
+[10.468s]                  from [01m[K/usr/local/include/gtsam/geometry/Unit3.h:23[m[K,
+[10.468s]                  from [01m[K/usr/local/include/gtsam/geometry/Rot3.h:26[m[K,
+[10.468s]                  from [01m[K/home/yuanyan/LIO-SAM-ros2/src/imuPreintegration.cpp:3[m[K:
+[10.468s] [01m[K/usr/local/include/gtsam/base/Vector.h:75:30:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Error: GTSAM was built against a different version of Eigen
+[10.468s]    75 |     GTSAM_EIGEN_VERSION_MAJOR[01;31m[K=[m[K=EIGEN_MAJOR_VERSION,
+[10.468s]       |                              [01;31m[K^[m[K
+[10.468s] [01m[K/usr/local/include/gtsam/base/Vector.h:75:30:[m[K [01;36m[Knote: [m[Kthe comparison reduces to ‘[01m[K(3 == 4)[m[K’
+[10.496s] In file included from [01m[K/usr/local/include/gtsam/base/Matrix.h:28[m[K,
+[10.496s]                  from [01m[K/usr/local/include/gtsam/base/Manifold.h:22[m[K,
+[10.496s]                  from [01m[K/usr/local/include/gtsam/base/Lie.h:26[m[K,
+[10.496s]                  from [01m[K/usr/local/include/gtsam/base/VectorSpace.h:11[m[K,
+[10.496s]                  from [01m[K/usr/local/include/gtsam/geometry/Point2.h:20[m[K,
+[10.496s]                  from [01m[K/usr/local/include/gtsam/geometry/Unit3.h:23[m[K,
+[10.496s]                  from [01m[K/usr/local/include/gtsam/geometry/Rot3.h:26[m[K,
+[10.496s]                  from [01m[K/home/yuanyan/LIO-SAM-ros2/src/mapOptmization.cpp:4[m[K:
+[10.496s] [01m[K/usr/local/include/gtsam/base/Vector.h:75:30:[m[K [01;31m[Kerror: [m[Kstatic assertion failed: Error: GTSAM was built against a different version of Eigen
+[10.496s]    75 |     GTSAM_EIGEN_VERSION_MAJOR[01;31m[K=[m[K=EIGEN_MAJOR_VERSION,
+[10.496s]       |                              [01;31m[K^[m[K
+[10.496s] [01m[K/usr/local/include/gtsam/base/Vector.h:75:30:[m[K [01;36m[Knote: [m[Kthe comparison reduces to ‘[01m[K(3 == 4)[m[K’
+[19.295s] [ 94%] [32m[1mLinking CXX executable lio_sam_featureExtraction[0m
+[19.588s] gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76: CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] Error 1
+[19.588s] gmake[1]: *** [CMakeFiles/Makefile2:690: CMakeFiles/lio_sam_imuPreintegration.dir/all] Error 2
+[19.588s] gmake[1]: *** Waiting for unfinished jobs....
+[19.638s] [ 94%] Built target lio_sam_featureExtraction
+[23.360s] gmake[2]: *** [CMakeFiles/lio_sam_mapOptimization.dir/build.make:76: CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o] Error 1
+[23.360s] gmake[1]: *** [CMakeFiles/Makefile2:719: CMakeFiles/lio_sam_mapOptimization.dir/all] Error 2
+[23.796s] [ 96%] [32m[1mLinking CXX executable lio_sam_imageProjection[0m
+[24.159s] [ 96%] Built target lio_sam_imageProjection
+[24.159s] gmake: *** [Makefile:146: all] Error 2
+[24.161s] Invoked command in '/home/yuanyan/LIO-SAM-ros2/build/lio_sam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/yuanyan/LIO-SAM-ros2/build/lio_sam -- -j16 -l16
