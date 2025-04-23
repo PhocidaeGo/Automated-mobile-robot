@@ -16,6 +16,7 @@ sudo rm -rf /usr/local/include/gtsam /usr/local/lib/libgtsam* /usr/local/cmake/g
 cd ~
 git clone https://github.com/borglab/gtsam.git
 cd gtsam
+git checkout 4.2a8
 mkdir build && cd build
 cmake .. -DCMAKE_BUILD_TYPE=Release -DGTSAM_BUILD_WITH_EIGEN_MKL=OFF
 make -j$(nproc)
